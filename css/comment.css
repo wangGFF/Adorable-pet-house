@@ -56,14 +56,16 @@ div,html,body,p,span,a,ul,i,em,li,ol,img,input,button,h1,h2,h3,h4,h5,h6{
     margin:3% 5% 0 4%;
     background-color: #eaeaea;
 }
-.comment .product span{
+.comment .product p{
 	width:50%;
 	float:left;
 	height:44px;
 	text-align: center;
 	color:#808080;
 	font-size:1.2rem;
-	cursor: pointer;
+}
+.comment .product span:first-child{
+	border-bottom:4px solid black;
 }
 .comment .com_content ul{
 	width:100%;
@@ -104,4 +106,28 @@ div,html,body,p,span,a,ul,i,em,li,ol,img,input,button,h1,h2,h3,h4,h5,h6{
 }
 .comment .com_content ul li p:nth-child(3) i:nth-child(2){
 	margin-left:52%;
+}
+.comment .Pro_details ul{
+	width:100%;
+}
+.comment .Pro_details ul li{
+	width:90%;
+	color:#333333;
+	border-bottom:1px solid #bbbbbb;
+	margin:3% 5% 0 4%;
+	padding:0 0 5% 0;
+	font-size:1.2rem;
+}
+.comment .Pro_details ul li p{
+	line-height:28px;
+}
+.comment .Pro_details ul .yuanliao p{
+	color:#808080;
+}
+.comment .Pro_details ul li p:nth-child(1){
+	color:#333333;
+	margin-bottom:2%;
+}
+.comment .Pro_details ul li:last-child{
+	border-bottom:0;
 }
