@@ -10,6 +10,7 @@ nav{
 .icon-back{
   position: absolute;
   left: 15px;
+  top: 5px;
 }
 .icon-back img{
   width: 13px;
@@ -78,43 +79,21 @@ ul{list-style: none;}
   font-size: 14px;
   border-bottom: 1px solid #808080;
 }
-
-#footer .row{
-  padding: 10px;
-  padding-bottom: 0;
-  border-bottom: 1px solid #ccc;
+.list a:nth-child(1){
+  border-top: none;
 }
-#footer .col-xs-4,.col-xs-8{
-  padding-bottom: 10px;
-}
-#footer .col-xs-4{
-  padding-left: 20px;
-  padding-right: 0;
-}
-#footer .col-xs-4 img{
-  width: 100%;
-  max-width: 150px;
-  max-height: 150px;
-}
-#footer #img1{
+#img1{
   width: 16px;
   height: 18px;
+  float: left;
+  margin-right: 10px;
 }
-#footer #h2{
-  font-size: 1.2em;
-  margin-left: 10px;
+#p{
+  white-space: pre-wrap;
 }
-#footer #p{
-  font-size: 1.0em;
-  color: #808080;
-  margin: 10px 0;
-}
-#footer #img2{
+#img2{
   width: 15px;
   height: 16px;
-}
-#footer #p1{
-  font-size: 1em;
-  color: #c9c9c9;
-  margin-left: 10px;
+  float: left;
+  margin-right: 10px;
 }
