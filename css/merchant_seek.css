@@ -1,0 +1,111 @@
+/*设置全局样式*/
+* {
+	margin: 0;
+	padding: 0;
+}
+html,body,.body {
+	width: 100%;
+	height: 100%;
+}
+/*基于最大盒子的媒体查询响应*/
+@media screen and (min-width:900px) {
+	html {
+		font-size: 25px;
+	}
+}
+@media screen and (min-width:700px) and (max-width:900px) {
+	html {
+		font-size: 18px;
+	}
+}
+@media screen and (min-width:400px) and (max-width:700px) {
+	html {
+		font-size: 12px;	
+	}
+}
+@media screen and (min-width:370px) and (max-width:400px) {
+	html {
+		font-size: 11px;
+	}
+}
+@media screen and (min-width:350px) and (max-width:370px) {
+	html {
+		font-size: 10.5px;
+	}
+}
+@media screen and (min-width:300px) and (max-width:350px) {
+	html {
+		font-size: 9.3px;
+	}
+}
+@media screen and (max-width:300px) {
+	html{
+		font-size: 6px;
+	}
+}
+/*上面红色导航栏*/
+.body .nav {
+	height: 8%;
+	background-color: #DF4442;
+	color: white;
+	position: relative;
+}
+/*左边箭头*/
+.body .nav :nth-child(1) {
+	height: 2.5rem;
+	position: absolute;
+	left: 1rem;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+/*中间搜索*/
+/*大盒子背景*/
+.body .nav span {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 65%;
+	background-color: rgb(192,62,60);
+	height: 52%;
+	border-radius: 0.5rem;
+}
+/*搜索图标*/
+.body .nav :nth-child(2) img {
+	height: 70%;
+	left: 5%;
+}
+/*搜索框*/
+.body .nav :nth-child(2) input {
+	position: absolute;
+	right: 2px;
+	top: 0;
+	bottom: 0;
+	width: 84%;
+	height: 60%;
+	margin: auto;
+	background-color: rgb(192,62,60);
+	border: 0;
+	outline: none;
+}
+/*占位符样式*/
+::-webkit-input-placeholder { font-size: 1.3rem; color: white; }/*Chrome*/
+::-moz-placeholder { font-size: 1.3rem; color: white; } /* firefox 1.39+ */
+:-ms-input-placeholder { font-size: 1.3rem; color: white; } /* Internet Explorer 1.30+ */
+:-o-placeholder { font-size: 1.3rem; color: white; } /*Opera */
+/*右边图*/
+.body .nav :nth-child(3) {
+	position: absolute;
+	right: 1rem;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 2.1rem;
+}
+/*下面内容部分大盒子*/
+.content {
+	height: 92%;
+}
