@@ -1,0 +1,66 @@
+/*搜索城市*/
+    .search_city{
+    	width: 100%;
+    	height: 52px;
+    	margin: 14px 0;
+    	position: relative;
+    }
+    .search_city>.search_input{
+    	width: 80%;
+    	margin: 0 auto;
+    	height: 52px;
+    }
+    .search_city>.search_input>input{
+    	width: 100%;
+    	height: 52px;
+    	background-color: #eeeeee;
+    	outline: none;
+    	border: none;
+    	border-radius: 5px;
+    	font-size: 22px;
+    }
+    .search_city>.search_big_box{
+    	margin: 0 auto;
+    	width: 127px;
+    	height: 52px;
+
+    }
+    .search_city>.search_big_box>.search_box{
+    	position: absolute;
+    	top: 11px;
+    }
+    .search_city>.search_big_box>.search_box>img{
+    	vertical-align:middle;
+    	position: relative;
+    	bottom: 3px;
+    }
+    .search_city>.search_big_box>.search_box>span{
+    	font-size: 22px;
+    	color: #c5c5c5;
+    	padding-left: 5px;
+    }
+/*病的种类*/
+    #EnglishLetterWord{
+    	width: 15px;
+    	height: 480px;
+    	position: fixed;
+    	right: 5px;
+    	bottom: 20px;
+    	font-size: 13px;
+    }
+    #EnglishLetterWord>.EnglishBigBox{
+    	padding-top: 1px;
+    }
+    #EnglishLetterWord>.EnglishBigBox>a{
+    	color: #c5c5c5;
+    }
+    .sicknessAllWord{
+    	width: 100%;
+    	height: 102px;
+    	margin: 0 auto;
+    }
+    .sicknessAllWord>a{
+    	font-size: 32px;
+    	line-height: 102px;
+    	color: #808080;
+    }

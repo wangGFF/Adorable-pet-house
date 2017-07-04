@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<meta name="Generator" content="Sublime Text3">
+<meta name="Author" content="">
+<meta name="website" content="">
+<meta name="Description" content="hhh">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/clearer_bible.css">
+</head>
+<body>
+<div class="clerrer_bible">
+<div class="navigation_bar">
+<div class="return_label" id="back">
+<img src="img/icon-back@2x.png" style="height:100%;width:100%">
+</div>
+<div class="clerrer_bible_guide">体重测试</div>
+</div>
+
+<div class="content_box">
+<ul id="test">
+<template v-for="item in news" id="back">
+<li v-bind:id="item.id">{{item.title}}<img  v-bind:src="'img/' + item.type" alt=""></img></li>
+<hr>
+</template>
+</ul>
+<div class="dog_img">
+<img src="img/tizhongceshi-photo@2x.png">
+<div id="box">
+<ul>
+	<li>填写狗狗的体重</li>
+	<li><div class="weight" type="text"><input><span>KG</span></div></li>
+</ul>
+<button id="calculate">开始计算</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- dog性别select -->
+<div class="Pet_sex">
+<div class="Pet_sex_navigation_bar">
+<div class="Pet_sex_return_label" id="Pet_sex_back">
+<img src="img/icon-back@2x.png" style="height:100%;width:100%">
+</div>
+<div class="Pet_sex_clerrer_bible_guide">性别</div>
+</div>
+
+<div class="Pet_sex_content_box">
+<div class="dog_img">
+<div id="pet">
+<ul>
+	<li id="Firset"><div>GG</div><div id="firset_firset"><img src="img/fuwu-duihao@2x.png"></div></li>
+	<li id="Second"><div>MM</div><div id="second_second"><img src="img/fuwu-duihao@2x.png"></div></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<!-- dog品种-->
+<div class="dog_varieties">
+<div class="dog_varieties_navigation_bar">
+<div class="dog_varieties_return_label" id="back">
+<img src="img/icon-back@2x.png" style="height:100%;width:100%">
+</div>
+<div class="dog_varieties_clerrer_bible_guide">狗狗品种</div>
+</div>
+</div>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/vue.min.js"></script>
+<script type="text/javascript" src="js/weight_test.js"></script>
+<script type="text/javascript" src="js/pet_sex.js"></script>
+</body>
+</html>
