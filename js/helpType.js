@@ -38,3 +38,18 @@ window.onload=function(){
 		}
 	}
 }
+$(function(){
+	var windowWidth=document.body.clientWidth;
+	if (windowWidth>=765) {
+		$(".helpType").css("left","11%");
+		$(".helpIntroduce").css("left","11%");
+	};
+	if (windowWidth<765&&windowWidth>=375){
+		$(".helpType").css("left","15.5%");
+		$(".helpIntroduce").css("left","15.5%");
+	};
+	if (windowWidth<375) {
+		$(".helpType").css("left","18%");
+		$(".helpIntroduce").css("left","18%");
+	};
+})

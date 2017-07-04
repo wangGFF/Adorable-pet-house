@@ -1,19 +1,21 @@
 .sicknessA{
 	display: block;
 	width: 92%;
-	height: 104px;
+	height: 53px;
 	color: #808080;
 	margin: 0 auto;
-	font-size: 32px;
+	font-size: 16px;
 	border-bottom: 1px solid #d2d2d2;
 }
 .sicknessImg{
 	vertical-align: middle;
 	position: relative;
-	top: 12px;
+	height: 90%;
+	top: 2px;
+	width: auto;
 }
 .sicknessWord{
 	position: relative;
 	left: 3.866666%;
-	top: 12px;
+	top: 5px;
 }

@@ -1,8 +1,41 @@
+/*上面搜索*/
+    .top_input{
+        width: 70%;
+        height: 25px;
+        background-color: #c73e3c;
+        border:none;
+        outline: none;
+        margin-left: 31.5px; 
+        color: #fff;
+        position: relative;
+        bottom: 2px;
+    }
+    .search_word{
+        font-size: 16px;
+        padding-left: 16.5px;
+    }
+    .placeholder_word{
+        position: absolute;
+        font-size: 14px;
+        height: 25px;
+        color: #fff;
+        top:0px;
+        left: 15.5%;
+    }
+    .placeholder_word>img{
+        height: 85%;
+        width: auto;
+        vertical-align: middle;
+    }
+    .placeholder_word>span{
+        position: relative;
+        top: 1.5px;
+    }
 /*防护列表*/
     .defend_box{
     	position: relative;
     	width: 100%;
-    	height: 92px;
+    	height: 47px;
     }
     .defend_box>.defend_list{
 		width: 93%;
@@ -12,17 +45,47 @@
 	.defend_box>.defend_list>li{
 		display: inline-block;
 		width: 20%;
-		font-size: 23px;
+		font-size: 11.5px;
 		float: left;
-		padding: 31px 0;
+		padding: 15.5px 0;
 	}
 	.defend_box>.defend_list>li>a{
 		color: #808080;
 	}
+/*选择列表*/
+    .choose_list{
+        height: 120px;
+        width: 100%;
+    }
+    .choose_list>ul{
+        display: inline-block;
+        width: 90%;
+        height: 80px;
+        /*padding-left: 5%;*/
+    }
+    .choose_list>ul>li{
+        float: left;
+        position: relative;
+        top: 16px;
+        display: inline-block;
+        /*width: 33.33%;*/
+        padding-left: 13.5%;
+    }
+    .choose_list>ul>li>a{
+        font-size: 14px;
+        color: #808080;
+        text-align: center;
+        display: inline-block;
+        height: 80px;
+    }
+    .choose_list>ul>li>a>img{
+        height: 80%;
+        width: auto;
+    }
 /*灰白块*/
     .gray_white_box{
     	width: 100%;
-    	height: 14px;
+    	height: 7px;
     	background-color: #eee;
     }
 /*医生列表*/
@@ -38,21 +101,24 @@
     	width: 95%;
     	margin: 0 auto;
     	position: relative;
+        height: 69px;
     }
     #doctorListBox>.doctorListDiv>.topDoctorList>.topDoctorImg{
-    	padding-top: 14px;
+    	padding-top: 7px;
+        height: 100%;
+        width: auto;
     }
     #doctorListBox>.doctorListDiv>.topDoctorList>.topDoctorWord{
         vertical-align: top;
         position: absolute;
         top: 15px;
         left: 27.4666666%;
-        font-size: 28px;
+        font-size: 14px;
     }
     #doctorListBox>.doctorListDiv>.topDoctorList>.topDoctorTap{
     	vertical-align: top;
     	position: absolute;
-    	font-size: 22px;
+    	font-size: 11px;
     	left: 27.4666666%;
     	top: 57px;
     	color: #c9c9c9;
@@ -61,25 +127,31 @@
     	position: absolute;
     	right: 1%;
     	top: 33px;
-    	padding: 5px 7px;
+    	padding: 10px 14px;
     	background-color: #df4442;
     	color: white;
-    	font-size: 26px;
+    	font-size: 13px;
     	border-radius: 7px;
     }
     .centerDoctorList{
-    	font-size: 26px;
+    	font-size: 13px;
     	color: #808080;
+        padding-top: 20px;
     }
     .bottomDoctorList{
     	padding-bottom: 14px;
+        padding-top: 20px;
+        height: 22px;
     }
     .bottomDoctorAddress{
-    	font-size: 26px;
+    	font-size: 13px;
     	color: #c9c9c9;
     	position: relative;
-    	bottom: 12px;
+    	bottom: 8px;
+        padding-left: 1%;
     }
     .bottomDoctorImg{
-    	padding-top: 20px;
+        height: 100%;
+        width: auto;
+
     }

@@ -74,5 +74,16 @@ $(function(){
 			$(".topDoctorWord").css("left","27.4666666%");
 			$(".topDoctorTap").css("left","27.4666666%");
 		}
+	});
+	$(".placeholder_word").click(function(){
+		$("#topInputSearch").focus();
+	});
+	$("#topInputSearch").keyup(function(){
+		if ($("#topInputSearch").val().length>0) {
+			$(".placeholder_word").css("display","none");
+		}else{
+			$(".placeholder_word").css("display","block");
+		}
 	})
+	
 })
