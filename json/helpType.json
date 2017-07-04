@@ -1,0 +1,31 @@
+helpType({
+	"error":0,
+	"data":{
+        "list":[
+		    {
+		    	"helpImg":"img/qiuzhuleixing_icon1@2x.png",
+		    	"helpUrl":"#",
+		    	"type":"医疗",
+		    	"Introduction":"疾病 外伤 感伤 康复 驱虫 疫苗"
+		    },
+		    {
+		    	"helpImg":"img/qiuzhuleixing_icon2@2x.png",
+		    	"helpUrl":"#",
+		    	"type":"养护",
+		    	"Introduction":"科学喂养 毛发修养"
+		    },
+		    {
+		    	"helpImg":"img/qiuzhuleixing_icon3@2x.png",
+		    	"helpUrl":"#",
+		    	"type":"训练",
+		    	"Introduction":"习惯培养 技能训练 沟通技巧"
+		    },
+		    {
+		    	"helpImg":"img/qiuzhuleixing_icon4@2x.png",
+		    	"helpUrl":"#",
+		    	"type":"其他",
+		    	"Introduction":"其他问题咨询"
+		    }
+        ]
+	}
+})
