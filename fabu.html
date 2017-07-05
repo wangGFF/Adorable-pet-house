@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>萌宠之家-商城首页</title>
+	<title>萌宠之家-发布内容</title>
     <meta charset="utf-8">
     <!-- 点击号码时，不默认拨打 -->
     <meta name="format-detection" content="telephone=no">
@@ -15,15 +15,25 @@
     <meta http-equiv="Access-Control-Allow-Origin" content="*">
     <link type="text/css" rel="stylesheet" href="css/fabu.css">
 </head>
-<body>
-    <div><!-- 发布评论 -->
-        <div>
-            
+<body ng-app="app">
+    <div class="publish"><!-- 发布评论 -->
+        <div class="pub">
+            <img src="img/fanhui@2x.png">
+            <p class="fabu">发布内容</p>
+            <p class="send">发送</p>
+        </div>
+        <div class="content" ng-controller="main">
+            <textarea placeholder="填写寻宠的内容" maxlength="500" ng-change="content()" ng-model="msg" ng-readonly="NotW"></textarea>
+            <span>{{500-msg.length}}/500</span>
+        </div>
+        <div class="addPic">
+            <img src="img/fabuneirong-tu1@2x.png">
+            <img src="img/fabuneirong-tu2@2x.png">
+            <img src="img/fabuneirong-tu3@2x.png">
         </div>
     </div>
 </body>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/angular.js"></script>
-<script type="text/javascript" src="js/vue.min.js"></script>
 <script type="text/javascript" src="js/fabu.js"></script>
 </html>
