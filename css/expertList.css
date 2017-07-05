@@ -68,8 +68,7 @@
         position: relative;
         top: 16px;
         display: inline-block;
-        /*width: 33.33%;*/
-        padding-left: 13.5%;
+        width: 33.33%;
     }
     .choose_list>ul>li>a{
         font-size: 14px;
@@ -77,6 +76,8 @@
         text-align: center;
         display: inline-block;
         height: 80px;
+        padding-left:50%;
+
     }
     .choose_list>ul>li>a>img{
         height: 80%;

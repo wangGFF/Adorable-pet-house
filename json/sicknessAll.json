@@ -39,7 +39,7 @@ sicknessAll({
 		    },
 		    {
 		    	"petImg":"img/jibingbaike_icon8@2x.png",
-		    	"petUrl":"#",
+		    	"petUrl":"sicknessEncyclopedia.html",
 		    	"petSickness":"其他疾病"
 		    }
         ]
