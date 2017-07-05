@@ -7,11 +7,14 @@ $(function(){
 			width:"10%",
 			height:"28px",
 			lineHeight:"28px",
-			textAlign:"center"
+			textAlign:"center",
 		});
 		$(".cancel").click(function(){
-			$(".text").val("");
-		})
+			$(".back").siblings().show();
+		    $(".text").hide();
+		    $(".cancel").hide();
+		});
+		console.log(document.documentElement.pageHeight);
 	});
 });
     var app=angular.module("myApp",[]);

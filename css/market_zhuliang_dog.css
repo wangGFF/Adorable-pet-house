@@ -1,0 +1,129 @@
+div,html,body,p,span,a,ul,i,em,li,ol,img,input,button,h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+	list-style-type: none;
+	text-decoration: none;
+}
+body{
+   background-color:#eaeaea; 
+}
+.market_mao{
+    width:100%;
+    background-color:red;
+}
+.market_mao .mao{
+	width:100%;
+	height:44px;
+	background-color: #df4442;
+}
+.market_mao .mao img{
+	height:80%;
+    float:left;
+    margin-left:2%;
+    margin-top:1%;	
+}
+.market_mao .mao .cap{
+    height:44px;
+    line-height: 44px;
+    color:white;
+    font-size:18px;
+    text-align: center;
+    float:left;
+}
+.market_mao .mao .title{
+    width:30%;
+    height:44px;
+    line-height: 44px;
+    color:white;
+    text-align: center;
+    font-size:22px;
+    margin-left:22%;
+    float:left;
+}
+.market_mao .mao .sousuo{
+	height:70%;
+    float:right;
+    margin-right:3%;
+}
+.market_mao .mao input{
+	display: none;
+	width:60%;
+	height:28px;
+    outline:none;
+    border:0;
+    color:white;
+    font-size:18px;
+    padding-left:2%;
+    margin-left:8%;
+    margin-top:2%;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    background-color:#c73e3c;
+}
+.market_mao .mao input::-moz-placeholder{
+	color:white;
+}
+.market_mao .mao input::-ms-input-placeholder{
+	color:white;
+}
+.market_mao .mao input::-webkit-input-placeholder{
+	color:white;
+}
+.market_mao .mao .cancel{
+	position: relative;
+	top:1%;
+	left:-5px;
+    color:white;
+    font-size:14px;
+    background-color:#c73e3c;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    display: none;
+}
+@media (width:375px){
+	.market_mao .mao .cancel{
+		position: relative;
+	    top:2%;
+	    left:-5px;
+	}
+}
+.market_mao .product ul li{
+    float:left;
+    width:45%;
+    background-color: white;
+    margin:10px 0 10px 13px;
+}
+.market_mao .product ul li:last-child{
+    margin:10px 0 80px 13px;
+}
+.market_mao .product ul li .pic{
+    width:100%;
+    position: relative;
+}
+.market_mao .product ul li .pic_1{
+    height:100%;
+    width:100%;    
+}
+.market_mao .product ul li .pic_2{
+    height:70%;
+    width:40%; 
+    position:absolute;
+    top:0;    
+}
+.market_mao .product ul li p{   
+    color:#808080;
+    font-size:12px;
+    padding-left:5px;
+}
+.market_mao .product ul li .cap{   
+    color:#222222;
+    margin:5px 0 5px 0; 
+}
+.market_mao .product ul li .con{   
+    margin:0 0 20px 0; 
+}
+.market_mao .product ul li span{   
+    color:#df4442;
+    font-size:12px;
+    padding-left:5px;
+}

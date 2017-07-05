@@ -30,10 +30,10 @@
                 <li ng-repeat="item in data.mao">
                     <div class="pic">
                         <img ng-src="{{item.img1}}" class="pic_1">
-                        <img ng-src="{{item.img2}}" class="pic_2">
+                        <img ng-src="{{item.img2}}" class="pic_2" ng-show="item.img2==''?false:true">
                     </div>                   
                     <p class="cap">{{item.cap}}</p>
-                    <p>{{item.con1}}</p>
+                    <p class="con">{{item.con1}}</p>
                     <span>{{item.pri}}</span>
                 </li>
             </ul>

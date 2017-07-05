@@ -85,8 +85,8 @@ body{
 }
 .market_mao .product ul li{
     float:left;
-    width:45%;
     background-color: white;
+    width:45%;
     margin:10px 0 10px 13px;
 }
 .market_mao .product ul li:last-child{
@@ -120,6 +120,9 @@ body{
 }
 @media (width:320px){
     .market_mao .product ul li:nth-child(1) .con{   
+        margin:0 0 3px 0; 
+    }
+    .market_mao .product ul li:nth-child(3) .con{   
         margin:0 0 3px 0; 
     }
 }
