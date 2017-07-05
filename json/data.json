@@ -1,13 +1,13 @@
 {
-	"data":{
-		"mao":[
+    "data":{
+        "mao":[
             {
-                "cap": "用一罐猫罐头召唤出一道彩虹", 
+                "cap": "用一罐猫罐头召唤彩虹", 
                 "con1": "雪诗雅Schesir彩虹猫罐头24罐混饼",
                 "id": 1, 
                 "pri": "￥255.0", 
                 "img1": "img/maoxingren-tu1@2x.png",
-                "img2": "maoxingren-Hot@2x.png",              
+                "img2": "img/maoxingren-Hot@2x.png"             
             },
             {
                 "cap": "biubiu-动感光波", 
@@ -15,7 +15,7 @@
                 "id": 2, 
                 "pri": "￥238.0", 
                 "img1": "img/maoxingren-tu2@2x.png",
-                "img2": "img/maoxingren-NEW@2x.png",              
+                "img2": "img/maoxingren-NEW@2x.png"              
             },
             {
                 "cap": "biubiu-动感光波", 
@@ -23,7 +23,7 @@
                 "id": 3, 
                 "pri": "￥238.0", 
                 "img1": "img/maoxingren-tu3@2x.png",
-                "img2": "img/maoxingren-NEW@2x.png",              
+                "img2": "img/maoxingren-NEW@2x.png"              
             },
             {
                 "cap": "biubiu-动感光波", 
@@ -31,7 +31,7 @@
                 "id": 4, 
                 "pri": "￥238.0", 
                 "img1": "img/maoxingren-tu4@2x.png",
-                "img2": "img/maoxingren-NEW@2x.png",              
+                "img2": "img/maoxingren-NEW@2x.png"              
             },
             {
                 "cap": "biubiu-动感光波", 
@@ -39,7 +39,7 @@
                 "id": 5, 
                 "pri": "￥238.0", 
                 "img1": "img/maoxingren-tu5@2x.png",
-                "img2": "img/maoxingren-NEW@2x.png",              
+                "img2": "img/maoxingren-NEW@2x.png"              
             },
             {
                 "cap": "无与伦比的细腻口感", 
@@ -47,7 +47,7 @@
                 "id": 6, 
                 "pri": "￥130.0", 
                 "img1": "img/maoxingren-tu6@2x.png",
-                "img2": "img/maoxingren-NEW@2x.png",              
+                "img2": "img/maoxingren-NEW@2x.png"              
             },
             {
                 "cap": "适用性No.1的猫罐头", 
@@ -55,7 +55,7 @@
                 "id": 7, 
                 "pri": "￥172.0", 
                 "img1": "img/maoxingren-tu7@2x.png",
-                "img2": "img/maoxingren-NEW@2x.png",              
+                "img2": "img/maoxingren-NEW@2x.png"              
             },
             {
                 "cap": "适用性No.1的猫罐头", 
@@ -63,7 +63,7 @@
                 "id": 8, 
                 "pri": "￥88.0", 
                 "img1": "img/maoxingren-tu7@2x.png",
-                "img2": "img/maoxingren-NEW@2x.png",              
+                "img2": "img/maoxingren-NEW@2x.png"             
             },
             {
                 "cap": "秘制酱汁猫罐头", 
@@ -71,7 +71,7 @@
                 "id": 9, 
                 "pri": "￥108.0", 
                 "img1": "img/maoxingren-tu8@2x.png",
-                "img2": "img/maoxingren-NEW@2x.png",              
+                "img2": "img/maoxingren-NEW@2x.png"              
             },
             {
                 "cap": "传说中的多肉猫罐头", 
@@ -79,18 +79,18 @@
                 "id": 10, 
                 "pri": "￥140.0", 
                 "img1": "img/maoxingren-tu9@2x.png",
-                "img2": "img/maoxingren-NEW@2x.png",              
+                "img2": "img/maoxingren-NEW@2x.png"             
             }
-		],
-		"dog":[
+        ],
+        "dog":[
             {
-            	"cap": "传说中的多肉猫罐头", 
+                "cap": "传说中的多肉猫罐头", 
                 "con1": "百利五谷系列猫罐头-1组7罐，7种口味混饼",
                 "id": 10, 
                 "pri": "￥140.0", 
                 "img1": "img/maoxingren-tu9@2x.png",
-                "img2": "img/maoxingren-NEW@2x.png", 
+                "img2": "img/maoxingren-NEW@2x.png"
             }
-		]
-	}
+        ]
+    }
 }

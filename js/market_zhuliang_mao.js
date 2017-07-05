@@ -9,6 +9,16 @@ $(function(){
 			lineHeight:"28px",
 			textAlign:"center"
 		});
-
+		$(".cancel").click(function(){
+			$(".text").val("");
+		})
+	});
+});
+    var app=angular.module("myApp",[]);
+	app.controller("main",function($scope,$http){
+		console.log(1);
+        $http.get("C:/Users/蓝科教育/Documents/GitHub/Adorable-pet-house/json/data.json").success(function(res){
+            console.log(res);
+            $scope.data=res.data;
+        })
 	})
-})
