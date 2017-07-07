@@ -89,12 +89,59 @@ body{
     top:-15px;
 }
 @media (width:320px){
+    .market_mao .comment span{
+        margin-right:10px;
+    }   
+}
 .share{
     width:100%;
-    height:200px;
-    background-color:white;
+    height:264px;
+    background-color:#eeeeee;
     position: fixed;
     z-index: 2;
     bottom:0;
     left:0;
+    display: none;
+}
+.share p{
+    padding-top:20px;
+    padding-left:10px;
+    font-size:24px;
+    color:#808080;
+    margin-bottom:20px;
+}
+.share .friend{
+    display: inline-block;
+    margin-bottom:45px;
+}
+.share .fri{
+    margin-left:40px;
+}
+@media (width:320px){
+.share .fri{
+    margin-left:20px;
+}    
+}
+.share .friend span{
+    display:block;
+    margin-top:9px
+}
+.share .weibo span{
+    position:relative;
+    left:7px;
+}
+.share .friend img{
+    height:80%;
+    width:70%;
+}
+.share .cancel{
+    width:90%;
+    height:35px;
+    font-size:18px;
+    background-color: white;
+    border-radius:8px;
+    line-height: 35px;
+    padding-top:0;
+    text-align: center;
+    margin-left:10px;
 }
