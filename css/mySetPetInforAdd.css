@@ -1,0 +1,19 @@
+#petInforAdd{
+	background-color: #eaeaea;
+}
+#petInforAdd>form>ul{
+	background-color: white;
+	width: 100%;
+}
+#petInforAdd>form>ul li{
+	width: 90%;
+	height: 44px;
+	position: relative;
+	left: 5%;
+	color: #333;
+}
+#petInforAdd>form>ul li input{
+	border: none;
+	outline: none;
+	padding-left: 2%;
+}
