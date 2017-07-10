@@ -45,3 +45,12 @@ a{
         left: 2%;
         width: auto;
     } 
+    .share{
+    position: absolute;
+    right: 5%;
+    top: 0px;
+    }
+    .share>a{
+        font-size: 17px;
+        color: white;
+    }
