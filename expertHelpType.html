@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <link rel="stylesheet" type="text/css" href="css/sicknessModel.css">
+    <link rel="stylesheet" type="text/css" href="css/expertHelpType.css">
+</head>
+<body>
+    <!-- 头部-->
+    <div class="top_top_top"></div>
+    <div class="top_sickness">
+        <a href="sicknessEncyclopedia.html" class="top_sickness_back">
+            <img src="img/fanhui@2x.png"></img>
+        </a>
+        <p>发求助</p>
+        <span class="share"><a href="">完成</a></span>
+    </div>
+    <!-- 求助开始 -->
+    <div class="helpTypeBox">
+        <ul>
+            <li>
+                <a href="">
+                    <span>选择求助类型</span>
+                    <img src="img/jinru@2x.png">
+                </a>
+            </li>
+            <li style="border-bottom:none; ">
+                <a href="">
+                    <span>选择宠物</span>
+                    <img src="img/jinru@2x.png">
+                </a>
+            </li>
+        </ul>
+        <form action="" method="post">
+            <input type="text" name="enterTitle" placeholder="输入标题">
+            <textarea placeholder="尽可能的描述你的宠物情况，包括品种、年龄、性别、驱虫和免疫等情况，以方便有宠物专家为您提供更准确的解决方案。(必填)"  required="required"></textarea>
+            <div class="upImg">
+                <input type="file" name="file" class="fileImg">
+                <img src="img/fabuneirong-tu1@2x.png">
+            </div>
+            <input type="submit" name="submit" class="submit">
+        </form>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/vue.js"></script>
+<script type="text/javascript" src="js/expertHelpType.js"></script>
+</html>

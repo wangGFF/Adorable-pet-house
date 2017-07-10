@@ -1,0 +1,88 @@
+.share{
+	position: absolute;
+	right: 5%;
+	top: 0px;
+}
+.share>a{
+	font-size: 17px;
+	color: white;
+}
+/*求助*/
+    .helpTypeBox{
+    	width: 100%;
+    	background-color: #eaeaea;
+    }
+    .helpTypeBox>ul>li>a{
+    	color: #c9c9c9;
+    	line-height: 44px;
+    }
+    .helpTypeBox>ul{
+    	width: 100%;
+    	background-color: white;
+    }
+    .helpTypeBox>ul>li{
+    	display: inline-block;
+    	width: 90%;
+    	height: 44px;
+    	position: relative;
+    	left: 5%;
+    	border-bottom: 1px solid #c9c9c9;
+    }
+    .helpTypeBox>ul>li>a>img{
+    	position: absolute;
+    	right: 0;
+    	top: 10px;
+    }
+    .helpTypeBox>form{
+    	width: 100%;
+    	background-color: white;
+    	color: #c9c9c9;
+    	position: relative;
+    	top: 12px;
+    }
+    .helpTypeBox>form>input:nth-child(1){
+    	width: 90%;
+    	height: 44px;
+    	border: none;
+    	outline: none;
+    	border-bottom: 1px solid #c9c9c9;
+    	position: relative;
+    	left: 5%;
+    }
+    .helpTypeBox>form>textarea{
+    	width: 90%;
+    	height: 196px;
+    	font-size: 14px;
+    	border: none;
+    	outline: none;
+    	position: relative;
+    	left: 5%;
+    	color: #c9c9c9;
+    	resize: none;
+    }
+    .helpTypeBox>form>.upImg{
+    	position: relative;
+    	left: 5%;
+    	width: 90%;
+    	height: 43px;
+    	padding-bottom:9px; 
+    }
+    .helpTypeBox>form>.upImg>.fileImg{
+    	width: 43px;
+    	height: 43px;
+    	z-index: 999;
+    	position: relative;
+    	opacity: 0;
+    }
+    .helpTypeBox>form>.upImg>img{
+    	position: absolute;
+    	left: 0;
+    	z-index: 66;
+    }
+    .submit{
+    	position: fixed;
+    	right: 5%;
+    	top: 7px;
+    	height: 35px;
+    	opacity: 0;
+    }
