@@ -34,5 +34,8 @@ $(function(){
 				position: "absolute" 
 			});
 			$(".share").show();
-	   })	
+	   });
+	   $(".back").click(function(){
+        window.history.back(-1);
+    })	
 })

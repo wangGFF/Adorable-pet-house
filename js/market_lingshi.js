@@ -15,6 +15,9 @@ $(function(){
 		    $(".cancel").hide();
 		})
 	});
+	$(".back").click(function(){
+        window.history.back(-1);
+    })
 });
     var app=angular.module("myApp",[]);
 	app.controller("main",function($scope,$http){

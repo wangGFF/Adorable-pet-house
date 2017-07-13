@@ -7,13 +7,11 @@ $(function(){
 		$(this).css({
 			borderBottom:"4px solid black"
 		});
-		console.log($(this).html());
 		if($(this).html()==="商品详情"){
            $(".Pro_details").show();
            $(".com_content").hide();
            $(".share").show();    
 		}else{
-			console.log(1);
 			$(".Pro_details").hide();
            $(".com_content").show();
            $(".share").hide();
@@ -24,5 +22,8 @@ $(function(){
 		console.log($("ul li").width());
 		console.log(windowWidth);
 		document.documentElement.style.fontSize=15*$("ul li").width()/windowWidth+"px";
-	}
+	};
+	$(".back").click(function(){
+        window.history.back(-1);
+    })
 })

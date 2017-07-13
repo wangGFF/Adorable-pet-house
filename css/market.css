@@ -94,11 +94,14 @@ div,html,body,p,span,a,ul,i,em,li,ol,img,input,button,h1,h2,h3,h4,h5,h6{
 .market .keys .right li{
 	padding:25% 0;
 	font-size:2.1rem;
+	color:#df4442;
 	text-align: center;
-	color:#333;
 	background-color:white;
 	border-bottom:0.1rem solid gray;
 	border-left:0.1rem solid gray;
+}
+.market .keys .right li a{
+	color:#df4442;
 }
 .market .keys .right2{
 	border-top:0.1rem solid gray;

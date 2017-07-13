@@ -4,4 +4,7 @@ app.controller("main",function($scope,$http){
 		$scope.data=res.find;
 		console.log(res);
 	});
-})
+});
+$(".back").click(function(){
+        window.history.back(-1);
+    })
