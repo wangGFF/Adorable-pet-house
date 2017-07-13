@@ -11,9 +11,126 @@
 	position: relative;
 	left: 5%;
 	color: #333;
+	/*border-bottom: 1px solid #c9c9c9;*/
+	line-height: 44px;
 }
 #petInforAdd>form>ul li input{
 	border: none;
 	outline: none;
 	padding-left: 2%;
+}
+#petInforAdd>form>ul li:nth-child(5){
+	border-bottom: none; 
+}
+#petInforAdd>form>ul li:nth-child(1) .circleBox img{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 0px;
+}
+.petSex{
+	position: absolute;
+}
+#petInforAdd>form>.setSubmit{
+	width: 90%;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	background-color: #df4442;
+	color: white;
+	border-radius: 8px;
+	position: relative;
+	top: 20px;
+	left: 5%;
+}
+.circleBox{
+	width: 37.39px;
+	height: 37.39px;
+	background-color: #ccc;
+	position: absolute;
+	border-radius: 50%; 
+	top: 2px;
+}
+.miaoBianBox{
+	width: 85%;
+	height: 1.5px;
+	background-color: #c9c9c9;
+	position: absolute;
+	right: 0;
+}
+.miaoBianBox1{
+	top: 88px;
+}
+.miaoBianBox2{
+	top: 132px;
+}
+.miaoBianBox3{
+	top: 176px;
+}
+.miaoBianBox4{
+	top: 220px;
+}
+.bigDeleteBox{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 2222;
+	background-color: rgba(152,152,152,0.5);
+	display: none;
+}
+.deleteBox{
+	position: absolute;
+	bottom: 20px;
+	width: 90%;
+	left: 5%;
+}
+.bigDeleteBox>.deleteBox>ul>li{
+	width: 100%;
+	background-color: #f9f9f9;
+
+}
+.bigDeleteBox>.deleteBox>ul>li:nth-child(1){
+	height: 37.5px;
+	font-size: 12px;
+	color: #808080;
+	line-height: 37.5px;
+	text-align: center;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom: 1px solid #808080;
+}
+.bigDeleteBox>.deleteBox>ul>li:nth-child(2){
+	height: 50px;
+	font-size: 18px;
+	color: #df4442;
+	line-height: 50px;
+	text-align: center;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.bigDeleteBox>.deleteBox>ul>li:nth-child(3){
+	height: 50px;
+	font-size: 18px;
+	border-radius: 8px;
+	color: #0088ff;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+.seeMoreLevel{
+	height: 50%;
+	position: absolute;
+	right: 0;
+	color: #333;
+	padding-right: 3%;
+	font-size: 11px;
+}
+.seeMoreLevel>img{
+	height: 80%;
+	width: auto;
+	position: relative;
+	top: 3px;
+	padding-left: 10px;
 }
