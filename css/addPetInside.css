@@ -89,12 +89,14 @@
 	background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(0.45, rgba(255, 255, 255, .85)), color-stop(0.75, rgba(255, 255, 255, .6)), to(rgba(255, 255, 255, .4)));
 	background: -moz-linear-gradient(#fff 0%, rgba(255, 255, 255, .85) 45%, rgba(255, 255, 255, .6) 75%, rgba(255, 255, 255, .4) 100%);
 	background: -o-linear-gradient(#fff 0%, rgba(255, 255, 255, .85) 45%, rgba(255, 255, 255, .6) 75%, rgba(255, 255, 255, .4) 100%);
+	border-bottom: 1px solid #333;
 }
 
 .G-mid {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	border-bottom: 1px solid #333;
 }
 
 .G-btm {
@@ -126,8 +128,9 @@
 	display: inline-block;
 }
 .df-wrap table tbody tr td{
-	width: 33.33%;
+	width: 18%;
 	display: inline-block;
+	margin: 0 7% 0 7%;
 }
 .df-strip {
 	position: relative;
