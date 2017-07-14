@@ -73,3 +73,9 @@ var allData = {};
     xhr1.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr1.send("acode=1&uid=22387&type=1");
 } ())
+$(function(){
+    $("#setApp>ul>li>a").click(function(){
+        $("#setApp>ul>li>a").css("borderBottom","none");
+        $(this).css("borderBottom","2px solid #df4442")
+    })
+})
