@@ -22,6 +22,7 @@ $(function(){
 	var documentHeight=$(document).height();
 	var documentWidth=$(document).width();
 	$(".sousuo").click(function(){
+		    $(".maskLayer").show();
 			$(".maskLayer").css({
 				backgroundColor:"black",
 	            width:documentWidth, 
@@ -35,6 +36,10 @@ $(function(){
 			});
 			$(".share").show();
 	   });
+	$(".cancel").click(function(){
+		$(".share").hide();
+		$(".maskLayer").hide();
+	})
 	   $(".back").click(function(){
         window.history.back(-1);
     })	

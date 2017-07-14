@@ -45,9 +45,7 @@ body{
     margin-top:33px;
 }
 .find_animal .product ul li{
-    padding:9px 10px 9px 9px;
-    width:96%;
-    padding:2%;
+    padding:9px 0px 9px 9px;
     font-size:14px;
     background-color: white;
     margin:10px 0 10px 0;
@@ -71,17 +69,17 @@ body{
     width:5%;
 }
 .find_animal .product ul li .left span{
-    font-size:18px;
+    font-size:16px;
     color:#333333;
 }
 .find_animal .product ul li .left .con{
-    font-size:15px;
+    font-size:12px;
     color:#808080;
     word-wrap:break-word;
     margin:15px 0 15px 0;
 }
 .find_animal .product ul li .left .add{
-    font-size:15px;
+    font-size:12px;
     color:#b0b0b0;
     margin-bottom: 20px;
 }
