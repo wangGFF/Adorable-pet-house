@@ -26,7 +26,7 @@ body,html{
 	height:8%;
 	position: fixed;
 	bottom: 0;
-	font-size: 30px;
+	font-size: 14px;
 	background-color: #eeeeee;
 	z-index: 999;
 	font-weight: bold;
@@ -46,14 +46,19 @@ body,html{
 	width: 80%;
 	height: 130%;
 }
+#sub_circle{
+	width: 100%;
+	height: 100%;
+
+}
 #sub_circle .header{
     width: 100%;
     height: 6%;
     background-color: #df4442;
-    font-size: 50px;
+    font-size: 18px;
     color: white;
     text-align: center;
-    line-height:105px;
+    line-height:40px;
     position: fixed;
     top: 0;
     z-index: 999;
@@ -80,222 +85,371 @@ body,html{
 	width: 100%;
 	height: 100%;
 }
-#sub_circle .box #content_box{
+#sub_circle .box .content_box{
 	width: 100%;
-	height: 85%;
+	height: 75%;
 }
-#sub_circle .box #content_box .top_box{
+.up_div{
 	width: 100%;
-	height: 15%;
-	position: relative;
+    height: 15%;
+    position: relative;
 }
-#sub_circle .box #content_box .middle_box{
-	width: 100%;
-	height: 55%;
-	position: relative;
-}
-#sub_circle .box #content_box .bottom_box{
-	width: 100%;
-	height: 10%;
-	position: relative;
-}
-#sub_circle .box #content_box .top_box .top_img_box{
+.up_div .head_img{
 	width: 15%;
-	height: 70%;
-	border-radius: 50%;
+	height:70%;
 	position: absolute;
 	top: 15%;
-	left: 5%;
+	left: 3%;
 }
-#sub_circle .box #content_box .top_box .top_img_box .top_img{
+.up_div .head_img img{
 	width: 100%;
 	height: 100%;
 }
-#sub_circle .box #content_box .top_box .wordbox1{
-	width: 10%;
-	height: 30%;
-	font-size: 50px;
-	position: absolute;
-	left: 25%;
-	top: 20%;
+.up_div span:nth-child(2){
+   display: inline-block;
+   position: absolute;
+   top: 15%;
+   left: 22%;
+   font-size: 20px;
 }
-#sub_circle .box #content_box .top_box .wordbox2{
-	width: 25%;
-	height: 30%;
-	font-size: 35px;
-	color: gray;
-	position: absolute;
-	left: 25%;
-	top: 60%;
-}
-#sub_circle .box #content_box .top_box .wordbox1_i{
-	width: 3%;
-	height: 18%;
-	position: absolute;
-	left: 37%;
-	top: 27%;
-}
-#sub_circle .box #content_box .top_box .wordbox1_i .wordbox1_i_img{
-	width: 100%;
-	height: 100%;
-}
-#sub_circle .box #content_box .top_box .wordbox2_i{
-	width: 3.5%;
-	height: 16%;
-	position: absolute;
-	left: 42%;
-	top: 64%;
-}
-#sub_circle .box #content_box .top_box .wordbox2_i .wordbox2_i_img{
-    width: 100%;
-    height: 100%;
-}
-#sub_circle .box #content_box .top_box .wordbox3{
-	width: 25%;
-	height: 30%;
-	font-size: 35px;
-	color: gray;
-	position: absolute;
-	left: 47%;
-	top: 60%;
-}
-#sub_circle .box #content_box .top_box .wordbox4{
-	width: 15%;
-	height: 30%;
-	font-size: 35px;
-	color: red;
-	position: absolute;
-	right:3%;
-	top: 40%;
-	border-radius: 40px;
-	text-align: center;
-	line-height:180%; 
-	border:1px solid red;
-}
-#sub_circle .box #content_box .middle_box .middle_box_img{
-	width: 100%;
-	height: 85%;
-}
-#sub_circle .box #content_box .middle_box .m_bottom_box{
-    position: absolute;
-    bottom: 0;
-    left: 4%;
-    width: 80%;
-    height: 15%;
-    font-size: 45px;
-    line-height: 240%;
-}
-#sub_circle .box #content_box .bottom_box .b_share1_box{
-	width: 6%;
-	height: 40%;
-	position: absolute;
-	left: 12%;
-	top: 30%;
-}
-#sub_circle .box #content_box .bottom_box .b_share1_box .b_share1_box_img{
-	width: 100%;
-	height: 100%;
-}
-#sub_circle .box #content_box .bottom_box .b_share2_box{
-	width: 15%;
-	height: 40%;
-	border-right:1px solid gray;
-	position: absolute;
-	left: 20%;
-	top: 30%;
-	font-size: 35px;
-	color: gray
-}
-
-#sub_circle .box #content_box .bottom_box .b_share3_box{
-	width: 6%;
-	height: 40%;
-	position: absolute;
-	left: 46%;
-	top: 30%;
-}
-#sub_circle .box #content_box .bottom_box .b_share3_box .b_share3_box_img{
-	width: 100%;
-	height: 100%;
-}
-#sub_circle .box #content_box .bottom_box .b_share4_box{
-	width: 15%;
-	height: 40%;
-	border-right:1px solid gray;
-	position: absolute;
-	left: 54%;
-	top: 30%;
-	font-size: 35px;
-	color: gray
-}
-
-#sub_circle .box #content_box .bottom_box .b_share5_box{
-	width: 6%;
-	height: 40%;
-	position: absolute;
-	left: 80%;
-	top: 30%;
-}
-#sub_circle .box #content_box .bottom_box .b_share5_box .b_share5_box_img{
-	width: 100%;
-	height: 100%;
-}
-#sub_circle .box #content_box .bottom_box .b_share6_box{
-	width: 6%;
-	height: 40%;
-	position: absolute;
-	left: 90%;
-	top: 30%;
-	font-size: 35px;
-	color: gray
-}
-#app .mengban_box {
-	width: 100%;
-	height: 60%;
-	background-color: #c9c9c9;
-	position: absolute;
-	top: 0;
-	z-index: 9999;
-	opacity: 0.2;
-	display:block;
-}
-#app .toshare1_box{
-	width: 100%;
-	height: 18%;
-	border-bottom:1px solid #c9c9c9;
-	z-index: 99999;
-	display: block;
-	position: absolute;
-	top: 0;
-	font-size: 45px;
-	line-height: 280%;
-}
-#app .toshare_box{
-	width: 100%;
-	height: 40%;
-	background-color: white;
-	position: fixed;
-	bottom: 0;
-	z-index: 9999;
-	display: block;
-}
-#app .toshare_box li{
-	list-style-type: none;
-	float: left;
+.up_div span:nth-child(2) span{
 	display: inline-block;
-	width: 25%;
-	height: 30%;
-	font-size: 40px;
+	width: 15%;
+	height: 10%;
+}
+.up_div span:nth-child(2) span img{
+	width: 100%;
+	height: 100%;
+
+}
+.up_div span:nth-child(3){
+	display: inline-block;
+	position: absolute;
+	bottom: 15%;
+	left: 22%;
+	font-size: 14px;
+	color: gray;
+} 
+.up_div span:nth-child(4){
+	width: 20%;
+	display: inline-block;
+	position: absolute;
+	bottom: 15%;
+	left: 40%;
+	font-size: 14px;
+	color: gray;
+} 
+.up_div span:nth-child(4) span{
+   display: inline-block;
+   width: 16%;
+   height: 10%;
+}
+.up_div span:nth-child(4) span img{
+	width: 100%;
+	height: 100%;
+}
+.up_div span:nth-child(5){
+	display: inline-block;
+	border:2px solid red;
+	width: 16%;
+	height: 40%;
+	position: absolute;
+	right: 5%;
+	top: 30%;
 	text-align: center;
-    margin-top: 16%;
+	line-height: 160%;
+	border-radius: 20px;
+	color: red;
 }
-#app .toshare_box li:nth-child(6){
-	margin-top:5%;
+.center_div{
+	width: 100%;
+	height: 65%;
 }
-#app .toshare_box li:nth-child(7){
-	margin-top: 5%;
+.center_div img{
+	width: 100%;
+	height: 100%;
 }
-#app .toshare_box li img{
+.bottom_div{
+	width: 100%;
+	height:20%; 
+	position: relative;
+}
+.bottom_div span:nth-child(1){
+	width: 90%;
+	height: 45%;
+	border-bottom: 1px solid gray;
+	position: absolute;
+	top: 0;
+	left: 5%;
+	line-height: 200%;
+	font-size: 18px;
+}
+.bottom_div span:nth-child(2){
+	width: 100%;
+	height: 45%;
+	position: absolute;
+    top: 45%;
+    border-bottom: 1px solid red;
+}
+.bottom_div span:nth-child(3){
+	width: 100%;
+	height: 10%;
+	position: absolute;
+	bottom: 0;
+	background-color: #eeeeee;
+}
+.bottom_div span:nth-child(2) li {
+	list-style-type: none;
+	display: inline-block;
+	width: 30%;
+	height: 70%;
+	border-right:2px solid #eeeeee;
+	position: relative;
+	top:10%;
+	box-sizing:border-box;  
+}
+.bottom_div span:nth-child(2) li span:nth-child(1){
+	border-bottom: none;
+	width: 18%;
+	height: 80%;
+	position: absolute;
+	left: 30%;
+	top: 10%;
+}
+.bottom_div span:nth-child(2) li span:nth-child(1) img{
+	width: 100%;
+	height: 100%;
+}
+.bottom_div span:nth-child(2) li span:nth-child(2){
+	border-bottom: none;
+	position: absolute;
+	left:55%;
+	top: 15% ;
+	width: 20%;
+
+}
+
+
+
+#sub_circle .header{
+    width: 100%;
+    height: 6%;
+    background-color: #df4442;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height:40px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+#sub_circle .header span{
+	display: inline-block;
+	width:25%;
+	height: 95%;
+	border-bottom:4px solid white; 
+}
+#sub_circle .header span:nth-child(2){
+	border-bottom:none; 
+
+}
+#sub_circle .box1{
+	width: 100%;
+	height: 94%;
+}
+#sub_circle .box1 .sub_box1{
+	width: 100%;
+	height: 7%;
+}
+#sub_circle .box1 .sub_box1 img{
+	width: 100%;
+	height: 100%;
+}
+#sub_circle .box1 .content_box1{
+	width: 100%;
+	height: 75%;
+}
+.content_box1 .up_div{
+	width: 100%;
+    height: 15%;
+    position: relative;
+}
+.content_box1 .up_div .head_img{
+	width: 15%;
+	height:70%;
+	position: absolute;
+	top: 15%;
+	left: 3%;
+}
+.content_box1 .up_div .head_img img{
+	width: 100%;
+	height: 100%;
+}
+.content_box1 .up_div span:nth-child(2){
+   display: inline-block;
+   position: absolute;
+   top: 15%;
+   left: 22%;
+   font-size: 20px;
+}
+.content_box1 .up_div span:nth-child(2) span{
+	display: inline-block;
+	width: 15%;
+	height: 10%;
+}
+.content_box1 .up_div span:nth-child(2) span img{
+	width: 100%;
+	height: 100%;
+
+}
+.content_box1 .up_div span:nth-child(3){
+	display: inline-block;
+	position: absolute;
+	bottom: 15%;
+	left: 22%;
+	font-size: 14px;
+	color: gray;
+} 
+.content_box1 .up_div span:nth-child(4){
+	width: 20%;
+	display: inline-block;
+	position: absolute;
+	bottom: 15%;
+	left: 40%;
+	font-size: 14px;
+	color: gray;
+} 
+.content_box1 .up_div span:nth-child(4) span{
+   display: inline-block;
+   width: 16%;
+   height: 10%;
+}
+.content_box1 .up_div span:nth-child(4) span img{
+	width: 100%;
+	height: 100%;
+}
+.content_box1 .up_div span:nth-child(5){
+	display: inline-block;
+	border:2px solid red;
+	width: 16%;
+	height: 40%;
+	position: absolute;
+	right: 5%;
+	top: 30%;
+	text-align: center;
+	line-height: 160%;
+	border-radius: 20px;
+	color: red;
+}
+.content_box1 .center_div{
+	width: 100%;
+	height: 65%;
+}
+.content_box1 .center_div img{
+	width: 100%;
+	height: 100%;
+}
+.content_box1 .bottom_div{
+	width: 100%;
+	height:20%; 
+	position: relative;
+}
+.content_box1 .bottom_div span:nth-child(1){
+	width: 90%;
+	height: 45%;
+	border-bottom: 1px solid gray;
+	position: absolute;
+	top: 0;
+	left: 5%;
+	line-height: 200%;
+	font-size: 18px;
+}
+.content_box1 .bottom_div span:nth-child(2){
+	width: 100%;
+	height: 45%;
+	position: absolute;
+    top: 45%;
+    border-bottom: 1px solid red;
+}
+.content_box1 .bottom_div span:nth-child(3){
+	width: 100%;
+	height: 10%;
+	position: absolute;
+	bottom: 0;
+	background-color: #eeeeee;
+}
+.content_box1 .bottom_div span:nth-child(2) li {
+	list-style-type: none;
+	display: inline-block;
+	width: 30%;
+	height: 70%;
+	border-right:2px solid #eeeeee;
+	position: relative;
+	top:10%;
+	box-sizing:border-box;  
+}
+.content_box1 .bottom_div span:nth-child(2) li span:nth-child(1){
+	border-bottom: none;
+	width: 18%;
+	height: 80%;
+	position: absolute;
+	left: 30%;
+	top: 10%;
+}
+.content_box1 .bottom_div span:nth-child(2) li span:nth-child(1) img{
+	width: 100%;
+	height: 100%;
+}
+.content_box1 .bottom_div span:nth-child(2) li span:nth-child(2){
+	border-bottom: none;
+	position: absolute;
+	left:55%;
+	top: 15% ;
+	width: 20%;
+
+}
+.mengban1{
+	width: 100%;height: 35%;background-color:white;z-index:9999;position: fixed;bottom: 0;display: none;
+}
+.mengban2{
+	width: 100%;height: 65%;background-color:black;z-index:9999;position: fixed;top: 0;opacity: 0.5;display: none;
+}
+.mengban1 .sub_to{
+	width: 100%;
+	height: 20%;
+	border-bottom: 1px solid #eeeeee;
+	position: relative;
+}
+.mengban1 .sub_to span{
+	position: absolute;
+    top: 28%;
+    left: 5%;
+}
+.mengban1 .sub_content{
+	width: 100%;
+	height: 80%;
+}
+.mengban1 .sub_content ul{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.mengban1 .sub_content ul li{
+	display: inline-block;
+	float: left;
+	width: 22%;
+	height: 45%;
+	margin-left: 3%;
+	text-align: center;
+	margin-top: 3%;
+}
+.mengban1 .sub_content ul li span{
+	display: inline-block;
 	width: 60%;
-	height:70%; 
+	height: 60%;
+	border-radius: 50%;
+}
+.mengban1 .sub_content ul li span img{
+	width: 100%;
+	height: 100%;
 }

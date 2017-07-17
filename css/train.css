@@ -1,0 +1,369 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+/*头部开始*/
+   /* body{
+        padding-top: 40px solid transparent;
+    }*/
+    .top_input{
+        width: 70%;
+        height: 25px;
+        background-color: #c73e3c;
+        border:none;
+        outline: none;
+        margin-left: 31.5px; 
+        color: #fff;
+        position: relative;
+        bottom: 2px;
+    }
+    .search_word{
+        font-size: 16px;
+        padding-left: 16.5px;
+    }
+    .placeholder_word{
+        position: absolute;
+        font-size: 16px;
+        height: 25px;
+        color: #fff;
+        top:0px;
+        left: 33.5%;
+    }
+    .placeholder_word>img{
+        height: 85%;
+        width: auto;
+        vertical-align: middle;
+    }
+    .placeholder_word>span{
+        position: relative;
+        top: 1.5px;
+    }
+    .top_sickness{
+        width: 100%;
+        height: 44px;
+        background-color: #df4442;
+        position: relative;
+        text-align: center;
+        line-height: 44px;
+        font-size: 19px;
+        color: white;
+    }
+    .top_sickness .top_sickness_back>img{
+    	position: absolute;
+        top: 5.5px;
+        height: 80%;
+        left: 2%;
+        width: auto;
+    } 
+    #directory{
+    	width: 100%;
+    	height: 93.4%;
+    	/*position: relative;*/
+    }
+    #directory ul{
+    	width: 100%;
+    	position: absolute;
+    	top: 9%;
+    }
+    #directory ul li{
+    	display: block;
+    	float: left;
+    	border:1px solid black;
+    	width: 20%;
+    	height:30px;
+    	line-height: 30px;
+    	text-align: center;
+    	margin-left: 15px;
+    	border-radius: 8px;
+    	font-size: 14px;
+    }
+    .sub_beauty{
+    	height: 93.4%;
+    	width: 99%;
+    	position: absolute;
+    	top:16%;
+    }
+    .sub_beauty .box{
+    	width: 90%;
+    	height: 20%;
+    	position: relative;
+    	margin-left: 4.5%;
+    	border-top: 1px solid gray;
+    }
+    .sub_beauty .box .left_img{
+    	width:40%;
+    	height: 80%; 
+    	position: relative;
+    	top: 10%;
+    }
+    .sub_beauty .box .left_img img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .sub_beauty .box p:nth-child(2){
+    	width:60%;
+    	display: block;
+    	position: absolute;
+    	right: -3%;
+    	top: 10%; 
+    	font-size:0.8rem;
+    }
+    .head_img{
+    	width: 9%;
+    	height:25%;
+    	position: absolute;
+    	left: 43%;
+    	top: 65%;
+    	border-radius: 50%;
+    }
+    .head_img img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .sub_beauty .box span{
+    	width: 30%;
+        position: absolute;
+        left: 54%;
+        top: 60%;
+        font-size: 1rem;
+    }
+    .sub_beauty .box span div{
+    	display: inline-block;
+    	width: 8%;
+    	height: 30%;
+    }
+    .sub_beauty .box span div img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .sub_beauty .box p:nth-child(5){
+    	position: absolute;
+    	left: 54%;
+    	top: 78%;
+    	font-size: 0.8rem; 
+    	color: gray;
+    }
+    .sub_training{
+    	height: 80%;
+    	width: 99%;
+    	position: absolute;
+    	top:16%;
+    }
+    .sub_training .box{
+    	width: 90%;
+    	height: 20%;
+    	position: relative;
+    	margin-left: 4.5%;
+    	border-top: 1px solid gray;
+    }
+    .sub_training .box .left_img{
+    	width:40%;
+    	height: 80%;
+    	position: relative;
+    	top: 10%; 
+    }
+    .sub_training .box .left_img img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .sub_training .box p:nth-child(2){
+    	width:60%;
+    	display: block;
+    	position: absolute;
+    	right: -3%;
+    	top: 10%; 
+    	font-size:0.8rem;
+    }
+    .sub_training .head_img{
+    	width: 9%;
+    	height:28%;
+    	position: absolute;
+    	left: 43%;
+    	top: 65%;
+    	border-radius: 50%;
+    }
+    .sub_training .head_img img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .sub_training .box span{
+    	width: 30%;
+        position: absolute;
+        left: 54%;
+        top: 60%;
+        font-size: 1rem;
+    }
+    .sub_training .box span div{
+    	display: inline-block;
+    	width: 8%;
+    	height: 30%;
+    }
+    .sub_training .box span div img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .sub_training .box p:nth-child(5){
+    	position: absolute;
+    	left: 54%;
+    	top: 78%;
+    	font-size: 0.8rem; 
+    	color: gray;
+    }
+    .sub_video{
+    	height: 80%;
+    	width: 99%;
+    	position: absolute;
+    	top:16%;
+    }
+    .sub_video .box{
+    	width: 90%;
+    	height: 20%;
+    	position: relative;
+    	margin-left: 4.5%;
+    	border-top: 1px solid gray;
+    }
+    .sub_video .box .left_img{
+    	width:40%;
+    	height: 80%;
+    	position: relative;
+    	top: 10%; 
+    }
+    .sub_video .box .left_img img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .sub_video .box p:nth-child(2){
+    	width:60%;
+    	display: block;
+    	position: absolute;
+    	right: -3%;
+    	top: 10%; 
+    	font-size:0.8rem;
+    }
+    .sub_video .head_img{
+    	width: 9%;
+    	height:28%;
+    	position: absolute;
+    	left: 43%;
+    	top: 65%;
+    	border-radius: 50%;
+    }
+    .sub_video .head_img img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .sub_video .box span{
+    	width: 30%;
+        position: absolute;
+        left: 54%;
+        top: 60%;
+        font-size: 1rem;
+    }
+    .sub_video .box span div{
+    	display: inline-block;
+    	width: 8%;
+    	height: 30%;
+    }
+    .sub_video .box span div img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .sub_video .box p:nth-child(5){
+    	position: absolute;
+    	left: 54%;
+    	top: 78%;
+    	font-size: 0.8rem; 
+    	color: gray;
+    }
+    .sub_defaults{
+    	height: 80%;
+    	width: 99%;
+    	position: absolute;
+    	top:16%;
+    }
+    .sub_defaults .box{
+    	width: 90%;
+    	height: 20%;
+    	position: relative;
+    	margin-left: 4.5%;
+    	border-top: 1px solid gray;
+    }
+    .sub_defaults .box .left_img{
+    	width:40%;
+    	height: 80%;
+    	position: relative;
+    	top: 10%; 
+    }
+    .sub_defaults .box .left_img img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .sub_defaults .box p:nth-child(2){
+    	width:60%;
+    	display: block;
+    	position: absolute;
+    	right: -3%;
+    	top: 10%; 
+    	font-size:0.8rem;
+    }
+    .sub_defaults .head_img{
+    	width: 9%;
+    	height:28%;
+    	position: absolute;
+    	left: 43%;
+    	top: 65%;
+    	border-radius: 50%;
+    }
+    .sub_defaults .head_img img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .sub_defaults .box span{
+    	width: 30%;
+        position: absolute;
+        left: 54%;
+        top: 60%;
+        font-size: 1rem;
+    }
+    .sub_defaults .box span div{
+    	display: inline-block;
+    	width: 8%;
+    	height: 30%;
+    }
+    .sub_defaults .box span div img{
+    	width: 100%;
+    	height: 100%;
+    }
+    .sub_defaults .box p:nth-child(5){
+    	position: absolute;
+    	left: 54%;
+    	top: 78%;
+    	font-size: 0.8rem; 
+    	color: gray;
+    }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="Generator" content="Sublime Text3">
+    <meta name="Author" content="">
+    <meta name="website" content="">
+    <meta name="Description" content="zy">
+    <meta name=viewport content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/focus.css">
+</head>
+<body>
+    <div class="header">
+    	<span class="fanhui"><a href="javascript:history.go(-1);location.reload()"><img src="img/fanhui@2x.png"></a></span>
+    	<p style="position:absolute;left: 38%;">fred的关注</p>
+    </div>
+    <div id="focus_content">
+         
+    </div>
+</body>
+<script type="text/javascript">
+    var fanhui = document.getElementsByClassName('fanhui');
+    console.log(fanhui)
+    fanhui[0].onclick = function(){
+    	window.location.href='index.html';
+    	window.close();
+    	// window.location.reload();
+    }
+	var dataArry = [];
+        function fun(data_all){
+          	dataArry = data_all.data.list;
+          	createCell(dataArry)
+    }
+    function $(id){
+          		return document.getElementById(id);
+    }
+    var focus_content = $('focus_content');
+        function createCell(dataArry){
+          	focus_content.innerHTML = "";
+          	for (var i = 0; i < dataArry.length; i++) {
+                var focus_div = document.createElement('div');
+                focus_div.className = "focus_div";
+                focus_content.appendChild(focus_div);
+
+                var head_div = document.createElement('div');
+                head_div.className = "head_div";
+                focus_div.appendChild(head_div);
+
+                var head_img = document.createElement('img');
+                head_img.className = "head_img";
+                head_img.src = "img/"+dataArry[i].head_img
+                head_div.appendChild(head_img);
+
+                var word1_div = document.createElement('div');
+                word1_div.className = "word1_div";
+                word1_div.innerHTML = dataArry[i].m_name;
+                focus_div.appendChild(word1_div);
+
+                var small_img = document.createElement('img');
+                small_img.className = "small_img";
+                small_img.src = "img/"+dataArry[i].small_img
+                word1_div.appendChild(small_img);
+
+                var word2_div = document.createElement('div');
+                word2_div.className = "word2_div";
+                word2_div.innerHTML = dataArry[i].m_adress;
+                focus_div.appendChild(word2_div);               
+            }
+    }
+</script>
+<script type="text/javascript" src="focus.json"></script>
+</html>

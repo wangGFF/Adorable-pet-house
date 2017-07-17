@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="Generator" content="Sublime Text3">
+    <meta name="Author" content="">
+    <meta name="website" content="">
+    <meta name="Description" content="zy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/train.css">
+</head>
+<body>
+    <div class="top_sickness">
+    	<a href="" class="top_sickness_back">
+    	    <img src="img/fanhui@2x.png"></img>
+    	</a>
+        <input type="text" name="" class="top_input" id="topInputSearch">
+        <div class="placeholder_word">
+            <img src="img/daohanglan-sousuo@2x.png">
+            <span>搜索内容/标签</span>
+        </div>
+        <span class="search_word">取消</span>
+    </div>
+    <div id="directory">
+    	<ul>
+    		<li><a v-link="{path: '/beauty'}">宠物美容</a></li>
+    		<li><a v-link="{path: '/training'}">宠物训练</a></li>
+    		<li><a v-link="{path: '/video'}">宠物电影</a></li>
+    		<li style="display: none;"><a v-link="{path: '/defaults'}"></a></li>
+
+    	</ul>
+    	<router-view></router-view>
+    </div>
+
+        
+
+    <template id="beauty">
+    	<div class="sub_beauty">
+    		<div v-for="item in word" class="box">
+    		    <div class="left_img">
+    		    	<img v-bind:src="'img/'+item.left_img">
+    		    </div>
+    		    <p>{{item.word_}}</p>
+    		    <div class="head_img">
+    		    	<img v-bind:src="'img/'+item.head_img">
+    		    </div>
+    		    <span>
+    		        {{item.word_name}}&nbsp
+    		        <div class="sub_span"><img v-bind:src="'img/'+item.small_img"></div>
+    		    </span>
+    		    <p>{{item.word_adress}}</p>
+    		</div>
+
+    	</div>
+    </template>
+    <template id="training">
+    	<div class="sub_training">
+    		<div v-for="item in word" class="box">
+    		    <div class="left_img">
+    		    	<img v-bind:src="'img/'+item.left_img">
+    		    </div>
+    		    <p>{{item.word_}}</p>
+    		    <div class="head_img">
+    		    	<img v-bind:src="'img/'+item.head_img">
+    		    </div>
+    		    <span>
+    		        {{item.word_name}}&nbsp
+    		        <div class="sub_span"><img v-bind:src="'img/'+item.small_img"></div>
+    		    </span>
+    		    <p>{{item.word_adress}}</p>
+    		</div>
+    	</div>
+    </template>
+    <template id="video">
+    	<div class="sub_video">
+    		<div v-for="item in word" class="box">
+    		    <div class="left_img">
+    		    	<img v-bind:src="'img/'+item.left_img">
+    		    </div>
+    		    <p>{{item.word_}}</p>
+    		    <div class="head_img">
+    		    	<img v-bind:src="'img/'+item.head_img">
+    		    </div>
+    		    <span>
+    		        {{item.word_name}}&nbsp
+    		        <div class="sub_span"><img v-bind:src="'img/'+item.small_img"></div>
+    		    </span>
+    		    <p>{{item.word_adress}}</p>
+    		</div>
+    	</div>
+    </template>
+    <template id="defaults">
+    	<div class="sub_defaults" style="height: 80%;
+    	width: 99%;">
+	    	<div v-for="item in word" class="box">
+	    		    <div class="left_img">
+	    		    	<img v-bind:src="'img/'+item.left_img">
+	    		    </div>
+	    		    <p>{{item.word_}}</p>
+	    		    <div class="head_img">
+	    		    	<img v-bind:src="'img/'+item.head_img">
+	    		    </div>
+	    		    <span>
+	    		        {{item.word_name}}&nbsp
+	    		        <div class="sub_span"><img v-bind:src="'img/'+item.small_img"></div>
+	    		    </span>
+	    		    <p>{{item.word_adress}}</p>
+	    		</div>
+    		</div>
+    	</div>
+    </template>
+</body>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/vue.js"></script>
+    <script type="text/javascript" src="js/vue-router.js"></script>
+    <script type="text/javascript" src="js/train.js"></script>
+</html>

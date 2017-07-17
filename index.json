@@ -1,4 +1,4 @@
-fun({
+{
     "errno": 0,
     "data": {
         "total": 200,
@@ -6,6 +6,23 @@ fun({
             {
                 "ID": "442230",
                 "m_name":"fred",
+                "m_guanzhu":"+关注",
+                "m_adress":"萌宠星球",
+                "m_create_time": "6天前",
+                "m_title": "这天气简直热得本宝宝360°旋转 ",
+                "m_small_img":"guanzhu-touxiang1@2x.png",
+                "m_big_img":"quanzi-img@2x.png",
+                "m_qiqiu_img":"guanzhu-icon-nv@2x.png",
+                "m_shijian_img":"guanzhu-icon-shijian@2x.png",
+                "share_img":"quanzi-icon-fenxiang@2x.png",
+                "comments_img":"xunchongxiangqing-tu3@2x.png",
+                "praise_img":"xunchongxiangqing-tu5@2x.png",
+                "m_num":"997"
+            },
+                        {
+                "ID": "442230",
+                "m_name":"饭饭",
+                "m_guanzhu":"+关注",
                 "m_adress":"萌宠星球",
                 "m_create_time": "6天前",
                 "m_title": "这天气简直热得本宝宝360°旋转 ",
@@ -21,6 +38,7 @@ fun({
                         {
                 "ID": "442230",
                 "m_name":"fred",
+                "m_guanzhu":"+关注",
                 "m_adress":"萌宠星球",
                 "m_create_time": "6天前",
                 "m_title": "这天气简直热得本宝宝360°旋转 ",
@@ -36,21 +54,7 @@ fun({
                         {
                 "ID": "442230",
                 "m_name":"fred",
-                "m_adress":"萌宠星球",
-                "m_create_time": "6天前",
-                "m_title": "这天气简直热得本宝宝360°旋转 ",
-                "m_small_img":"quanzi-touxiang1@2x.png",
-                "m_big_img":"quanzi-img@2x.png",
-                "m_qiqiu_img":"guanzhu-icon-nv@2x.png",
-                "m_shijian_img":"guanzhu-icon-shijian@2x.png",
-                "share_img":"quanzi-icon-fenxiang@2x.png",
-                "comments_img":"xunchongxiangqing-tu3@2x.png",
-                "praise_img":"xunchongxiangqing-tu5@2x.png",
-                "m_num":"997"
-            },
-                        {
-                "ID": "442230",
-                "m_name":"fred",
+                "m_guanzhu":"+关注",
                 "m_adress":"萌宠星球",
                 "m_create_time": "6天前",
                 "m_title": "这天气简直热得本宝宝360°旋转 ",
@@ -66,6 +70,7 @@ fun({
              {
                 "ID": "442230",
                 "m_name":"fred",
+                "m_guanzhu":"+关注",
                 "m_adress":"萌宠星球",
                 "m_create_time": "6天前",
                 "m_title": "这天气简直热得本宝宝360°旋转 ",
@@ -81,6 +86,7 @@ fun({
              {
                 "ID": "442230",
                 "m_name":"fred",
+                "m_guanzhu":"+关注",
                 "m_adress":"萌宠星球",
                 "m_create_time": "6天前",
                 "m_title": "这天气简直热得本宝宝360°旋转 ",
@@ -96,6 +102,7 @@ fun({
              {
                 "ID": "442230",
                 "m_name":"fred",
+                "m_guanzhu":"+关注",
                 "m_adress":"萌宠星球",
                 "m_create_time": "6天前",
                 "m_title": "这天气简直热得本宝宝360°旋转 ",
@@ -108,6 +115,84 @@ fun({
                 "praise_img":"xunchongxiangqing-tu5@2x.png",
                 "m_num":"997"
             }
+        ],
+        "gz_list": [
+            {
+                "ID": "442230",
+                "m_name":"萌宠君",
+                "m_guanzhu":"已关注",
+                "m_adress":"萌宠星球",
+                "m_create_time": "330天前",
+                "m_title": "宝贝狗狗现在成网红汪汪啦 ",
+                "m_small_img":"guanzhu-touxiang2@2x.png",
+                "m_big_img":"guanzhu-img2@2x.png",
+                "m_qiqiu_img":"guanzhu-icon-nan@2x.png",
+                "m_shijian_img":"guanzhu-icon-shijian@2x.png",
+                "share_img":"quanzi-icon-fenxiang@2x.png",
+                "comments_img":"xunchongxiangqing-tu3@2x.png",
+                "praise_img":"guanzhu-icon-dianzan@2x.png",
+                "m_num":"997",
+                "m_num1":"3948",
+                "m_num2":"29",
+                "m_num3":"8635"
+            },
+                        {
+                "ID": "442230",
+                "m_name":"饭饭",
+                "m_guanzhu":"+关注",
+                "m_adress":"萌宠星球",
+                "m_create_time": "6天前",
+                "m_title": "宝贝狗狗现在成网红汪汪啦",
+                "m_small_img":"quanzi-touxiang1@2x.png",
+                "m_big_img":"guanzhu-img1@2x.png",
+                "m_qiqiu_img":"guanzhu-icon-nv@2x.png",
+                "m_shijian_img":"guanzhu-icon-shijian@2x.png",
+                "share_img":"quanzi-icon-fenxiang@2x.png",
+                "comments_img":"xunchongxiangqing-tu3@2x.png",
+                "praise_img":"guanzhu-icon-dianzan@2x.png",
+                "m_num":"997",
+                "m_num1":"3948",
+                "m_num2":"29",
+                "m_num3":"8635"
+            },
+                        {
+                "ID": "442230",
+                "m_name":"fred",
+                "m_guanzhu":"+关注",
+                "m_adress":"萌宠星球",
+                "m_create_time": "6天前",
+                "m_title": "这天气简直热得本宝宝360°旋转 ",
+                "m_small_img":"quanzi-touxiang1@2x.png",
+                "m_big_img":"quanzi-img@2x.png",
+                "m_qiqiu_img":"guanzhu-icon-nv@2x.png",
+                "m_shijian_img":"guanzhu-icon-shijian@2x.png",
+                "share_img":"quanzi-icon-fenxiang@2x.png",
+                "comments_img":"xunchongxiangqing-tu3@2x.png",
+                "praise_img":"guanzhu-icon-dianzan@2x.png",
+                "m_num":"997",
+                "m_num1":"3948",
+                "m_num2":"29",
+                "m_num3":"8635"
+            },
+                        {
+                "ID": "442230",
+                "m_name":"fred",
+                "m_guanzhu":"+关注",
+                "m_adress":"萌宠星球",
+                "m_create_time": "6天前",
+                "m_title": "这天气简直热得本宝宝360°旋转 ",
+                "m_small_img":"quanzi-touxiang1@2x.png",
+                "m_big_img":"quanzi-img@2x.png",
+                "m_qiqiu_img":"guanzhu-icon-nv@2x.png",
+                "m_shijian_img":"guanzhu-icon-shijian@2x.png",
+                "share_img":"quanzi-icon-fenxiang@2x.png",
+                "comments_img":"xunchongxiangqing-tu3@2x.png",
+                "praise_img":"guanzhu-icon-dianzan@2x.png",
+                "m_num":"997",
+                "m_num1":"3948",
+                "m_num2":"29",
+                "m_num3":"8635"
+            }
         ]
     }
-})
+}
