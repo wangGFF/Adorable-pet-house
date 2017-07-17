@@ -1,4 +1,4 @@
-p,div,html,body,p,span,a,ul,i,em,li,ol,img,input,button,h1,h2,h3,h4,h5,h6{
+div,html,body,p,span,a,ul,i,em,li,ol,img,input,button,h1,h2,h3,h4,h5,h6{
 	padding:0;
 	margin:0;
 	list-style-type: none;
@@ -87,10 +87,10 @@ body{
     float:left;
     width:45%;
     background-color: white;
-    margin:10px 0 10px 13px;
+    margin:10px 0 10px 10px;
 }
 .market_mao .product ul li:last-child{
-    margin:10px 0 80px 13px;
+    margin:10px 0 80px 10px;
 }
 .market_mao .product ul li .pic{
     width:100%;
@@ -117,16 +117,6 @@ body{
 }
 .market_mao .product ul li .con{   
     margin:0 0 20px 0; 
-}
-@media (width:320px){
-    .market_mao .product ul li:nth-child(1) .con{   
-        margin:0 0 3px 0; 
-    }
-}
-@media (width:414px){
-    .market_mao .product ul li:nth-child(5) .con{   
-        margin:0 0 3px 0; 
-    }
 }
 .market_mao .product ul li span{   
     color:#df4442;

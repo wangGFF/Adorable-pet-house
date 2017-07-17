@@ -1,0 +1,147 @@
+div,html,body,p,span,a,ul,i,em,li,ol,img,input,button,h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+	list-style-type: none;
+	text-decoration: none;
+}
+body{
+   background-color:#eaeaea; 
+}
+.market_mao .mao{
+	width:100%;
+	height:44px;
+	background-color: #df4442;
+}
+.market_mao .mao img{
+	height:80%;
+    float:left;
+    margin-left:2%;
+    margin-top:1%;	
+}
+.market_mao .mao .title{
+    width:30%;
+    height:44px;
+    line-height: 44px;
+    color:white;
+    text-align: center;
+    font-size:22px;
+    margin-left:25%;
+    float:left;
+}
+.market_mao .mao .sousuo{
+	height:70%;
+    float:right;
+    margin-right:5%;
+}
+.market_mao ul{
+    margin-bottom:40px;
+}
+.market_mao ul li{
+    padding:5%;
+    position: relative;
+}
+.market_mao ul li .name{
+    display: inline-block;
+    position: absolute;
+    top:30%;
+    padding-left:6%; 
+    font-size:20px;
+}
+.market_mao ul li .attention{
+    display: inline-block;
+    position: absolute;
+    top:30%;
+    left:70%;
+    padding:5px 22px;
+    font-size:20px;
+    border:1px solid #c9c9c9;
+    border-radius:4px;
+    color:#df4442;
+}
+.market_mao ul li .detail{
+    color:#808080;
+    line-height:28px;
+}
+.market_mao ul li .pic{
+    width:100%;
+}
+.market_mao .comment{
+    background-color:white;
+    padding:10px;
+    position: relative;
+}
+.market_mao .comment img{
+    width:8%;
+    height:60%;
+    background-color:white;
+    padding:10px;
+}
+.market_mao .comment img:nth-child(3){
+    position: relative;
+    top:10px;
+}
+.market_mao .comment span{
+    display: inline-block;
+    margin-right:30px;
+    font-size:18px;
+    color:#808080;
+    position: relative;
+    top:-15px;
+}
+@media (width:320px){
+    .market_mao .comment span{
+        margin-right:10px;
+    }   
+}
+.share{
+    width:100%;
+    height:264px;
+    background-color:#eeeeee;
+    position: fixed;
+    z-index: 2;
+    bottom:0;
+    left:0;
+    display: none;
+}
+.share p{
+    padding-top:20px;
+    padding-left:10px;
+    font-size:24px;
+    color:#808080;
+    margin-bottom:20px;
+}
+.share .friend{
+    display: inline-block;
+    margin-bottom:45px;
+}
+.share .fri{
+    margin-left:40px;
+}
+@media (width:320px){
+.share .fri{
+    margin-left:20px;
+}    
+}
+.share .friend span{
+    display:block;
+    margin-top:9px
+}
+.share .weibo span{
+    position:relative;
+    left:7px;
+}
+.share .friend img{
+    height:80%;
+    width:70%;
+}
+.share .cancel{
+    width:90%;
+    height:35px;
+    font-size:18px;
+    background-color: white;
+    border-radius:8px;
+    line-height: 35px;
+    padding-top:0;
+    text-align: center;
+    margin-left:10px;
+}

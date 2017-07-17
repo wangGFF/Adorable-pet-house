@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>萌宠之家-商城-喵星人</title>
+	<title>萌宠之家-商城-罐头</title>
     <meta charset="utf-8">
     <!-- 点击号码时，不默认拨打 -->
     <meta name="format-detection" content="telephone=no">
@@ -13,21 +13,21 @@
     <meta name="apple-touch-fullscreen" content="yes">
     <!-- 允许跨域请求，*表示接受任何URL地址，如果指定URL就只接受此地址跨域 -->
     <meta http-equiv="Access-Control-Allow-Origin" content="*">
-    <link type="text/css" rel="stylesheet" href="css/market_zhuliang_mao.css">
+    <link type="text/css" rel="stylesheet" href="css/market_guantou.css">
 </head>
 <body>
     <div class="market_mao">
         <div class="mao">
             <img src="img/fanhui@2x.png" class="back">
             <p class="cap">商城</p>
-            <p class="title">喵星人</p>
+            <p class="title">罐头</p>
             <img src="img/daohanglan-sousuo@2x.png" class="sousuo">
             <input type="text" name="text" placeholder="请输入内容" class="text">
             <span class="cancel">取消</span>       
         </div>
         <div ng-app="myApp" class="product">
             <ul ng-controller="main">
-                <li ng-repeat="item in data.mao">
+                <li ng-repeat="item in data.guantou">
                     <div class="pic">
                         <img ng-src="{{item.img1}}" class="pic_1">
                         <img ng-src="{{item.img2}}" class="pic_2" ng-show="item.img2==''?false:true">
@@ -42,5 +42,5 @@
 </body>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/angular.js"></script>
-<script type="text/javascript" src="js/market_zhuliang_mao.js"></script>
+<script type="text/javascript" src="js/market_guantou.js"></script>
 </html>
