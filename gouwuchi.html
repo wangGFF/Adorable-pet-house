@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	</head>
+	<style type="text/css">
+		body{background: #EAEAEA;}
+		.back img{
+			width: 70%;
+			margin-top: 5px;
+		}
+		.dd li{
+			background: #fff;
+			color: #808080;
+			border-bottom: 1px solid #c9c9c9;
+			padding: 10px;
+		}
+		#money{color: #DF4442;}
+		.fk{margin-top: 10px;}
+		.fk li{
+			background: #fff;
+			color: #333;
+			border-bottom: 1px solid #c9c9c9;
+			padding: 10px;
+			
+		}
+		.fk li:first-child{padding: 15px 10px;font-size: 18px}
+		.fk .xiao{
+			width: 5%;
+			position: relative;
+			top: -5px;
+		}
+		.fk .da{
+			width: 8%;
+			margin-left: 8px;
+			margin-right: 9px;
+		}
+		.fk li span{
+			position: relative;
+			top: -8px;
+		}
+		.btn{
+			width: 80%;
+			margin: 25px auto;
+			padding: 10px;
+			background: #DF4442;
+			color: #fff;
+			border-radius: 8px;
+			text-align: center;
+		}
+	</style>
+	<body>
+		<div class="navs">
+		  <div class="bar">
+			<div class="back"  onclick="javascript:history.back(-1);">
+				<img src="img/icon-back@2x.png"/>
+           </div>
+           <span>收银台</span>
+          </div>
+        </div>
+        <ul class="dd">
+        	<li>订单号：10002365485</li>
+        	<li id="time">下单时间：</li>
+        	<li>应付金额：<span id="money"></span></li>
+        </ul>
+        <ul class="fk">
+        	<li>付款方式：</li>
+        	<li>
+        		<img class="xiao" src="img/xuanze-icon@2x.png.png"/>
+        		<img class="da" src="img/weixin-icon@2x.png.png"/>
+        		<span>微信支付</span>
+        	</li>
+        	<li>
+        		<img class="xiao" src="img/weixuanze-icon@2x.png.png"/>
+        		<img class="da" src="img/zhifubao-icon@2x.png.png"/>
+        		<span>支付宝支付</span>
+        	</li>
+        </ul>
+        <div class="btn">
+        	立即支付
+        </div>
+        <script type="text/javascript">
+        	var time = document.getElementById("time");
+        	var money = document.getElementById("money");
+	var Date = new Date();
+	var mytime = Date.toLocaleDateString();
+	var mydate = Date.toLocaleTimeString();
+	    time.innerHTML = "下单时间： "+mytime+"&nbsp;&nbsp;"+mydate;
+	    var num = 7;
+	    money.innerHTML = "￥"+num+".00元";
+        </script>
+	</body>
+</html>

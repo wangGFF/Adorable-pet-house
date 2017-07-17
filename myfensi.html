@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/myfensi.css"/>
+		<script type="text/javascript" src="js/angular.min.js"></script>
+	</head>
+	<body ng-app="app">
+		<div class="navs">
+		  <div class="bar">
+			<div class="back"  onclick="javascript:history.back(-1);">
+             <img class="back" src="img/icon-back@2x.png"/>
+            </div>
+            <span>我的粉丝</span>
+          </div>
+       </div>
+      <div class="list" id="all" ng-controller="main">
+      	<a ng-repeat="itm in list" href="#">
+            <img class="touxiang" ng-src="img/{{itm.img}}.png" alt="">
+        	<h1>{{itm.name}}</h1>
+        	<img id="sex" ng-src="img/{{itm.sex}}.png" alt="">
+        	<p>{{itm.detail}}</p>
+        </a>
+      </div>
+      <script type="text/javascript">
+      	var app = angular.module('app', []);
+            app.controller('main', function ($scope, $http) {
+            $http.get('json/myfensi.json')
+            .success(function (res) {
+            	console.log(res)
+            $scope.list = res.data;
+           })
+        });
+        var list = document.querySelector(".list");
+        window.onresize = set;
+        set();
+        function set(){
+			var windowWidth = document.documentElement.clientHeight;
+			list.style.height = windowWidth -44 + "px";
+			list.style.overflow = "auto";
+		}
+      </script>
+	</body>
+</html>

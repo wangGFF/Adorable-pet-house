@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="css/public.css"/>
+  <link rel="stylesheet" type="text/css" href="css/xiangqing.css"/>
+ 
+</head>
+<body>
+	<div class="nav">
+		<div class="bar">
+			<div class="icon-back"  onclick="javascript:history.back(-1);">
+      <img src="img/icon-back@2x.png" alt="">
+      </div>
+      <a href="#" class="fabu" id="share">分享</a>
+            详情
+		</div>
+  </div>
+  
+ <div class="action">
+ 	<div class="youke">
+ 		<img src="img/user_touxiang@2x.png"/>
+ 		<p>游客</p>
+ 		<span>+ 关注</span>
+ 	</div>
+ 	<div class="hsq">
+ 		<span>哈士奇 （一岁）</span>
+ 	  <img src="img/xingbie1.png"/>
+ 	</div>
+ 	<p class="p">想找个妹纸陪同，一起长大，可爱的二哈人见人爱，有意请联系我！电话：15269782564 谢谢</p>
+ </div>
+ <div class="img">
+ 	<img src="img/xiangqing_photo@2x.png"/>
+ </div>
+ <div class="dizhi">
+ 	<img src="img/didian@2x.png"/>
+ 	<span class="sq">北京市朝阳区青年路小区</span>
+ 	<span id="time"></span>
+ </div>
+ <p class="peidui">【配对】</p>
+ <hr color="#cccccc" />
+ <div class="pinglun">
+ 	<a href="zhuanfa.html"><img src="img/fabuneirong-tu2@2x.png"/></a>
+ 	
+ 	<input type="text" id="all" placeholder="请输入你的评论" />
+ 	<span>发送</span>
+ </div>
+ <div id="foot" class="foot">
+ 	<div id="mb"></div>
+ 	
+ 	<div id="fxto">
+ 		<div class="wenzi">
+ 		分享到
+ 	  </div>
+ 		<div class="fxtu">
+ 			<img src="img/fenxiang -weixin@2x.png"/>
+ 		  <p>微信</p>
+ 		</div>
+ 		<div class="fxtu">
+ 			<img src="img/fenxiang -pengyouquan@2x.png"/>
+ 		  <p>朋友圈</p>
+ 		</div>
+ 		<div class="fxtu">
+ 			<img src="img/fenxiang -QQ@2x.png"/>
+ 		  <p>QQ</p>
+ 		</div>
+ 		<div class="fxtu">
+ 			<img src="img/fenxaing- QQkongjian@2x.png"/>
+ 		  <p>QQ空间</p>
+ 		</div>
+ 		<div class="fxtu">
+ 			<img src="img/fenxaing -weibo@2x.png"/>
+ 		  <p>微博</p>
+ 		</div>
+ 		<div class="fxtu">
+ 			<img src="img/fenxaing- fuzhilianjie@2x.png"/>
+ 		  <p>复制链接</p>
+ 		</div>
+ 	</div>
+ </div>
+<script type="text/javascript">
+	var time = document.getElementById("time");
+	var Date = new Date();
+	var mytime = Date.toLocaleDateString();
+	var m = Date.getMinutes();
+	var h = Date.getHours();
+	var ms = m<10?"0"+m:m;
+	var hs = h<10?"0"+h:h;
+	time.innerHTML = mytime+"&nbsp;&nbsp;"+hs+":"+ms;
+  var share = document.getElementById("share");
+  var foot = document.getElementById("foot");
+  share.onclick = function(){
+  	foot.style.display = "block";
+  }
+</script>
+</body>
+</html>

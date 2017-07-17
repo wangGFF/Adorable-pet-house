@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/myindex.css"/>
+	</head>
+	<body>
+		<div class="navs">
+		  <div class="bar">我的
+			<div class="back"  onclick="javascript:history.back(-1);">
+				<a id="xiaoxi">
+             <img class="back" src="img/wode-icon-xiaoxi@2x.png.png"/>
+             </a>
+            </div>
+            <div class="button">
+            	<img class="button" src="img/wode-icon-shezhi@2x.png.png"/>
+            </div>
+          </div>
+        </div>
+        <div class="img">
+        	<img class="da" src="img/wode-banner-@2x.png.png"/>
+        	<div class="touxiang">
+        		<img class="xiao" src="img/wode-icon-touxiang@2x.png.png"/>
+        		<p class="x">小仙女</p>
+        		<p class="y">新晋铲屎官</p>
+        	</div>
+        </div>
+        <div class="fensi">
+        	<a href="myfensi.html">
+        		<p id="fs">3</p><p class="fs">粉丝</p>
+        	</a>
+        	<a href="myguanzhu.html">
+        		<p>201</p><p class="fs">关注</p>
+        	</a>
+        	<a href="index.html">
+        		<p>52</p><p class="fs">被赞数</p>
+        	</a>
+        </div>
+        <ul class="ul">
+        	<a href="gouwuchi.html">
+        	<li>
+        		<img src="img/wode-icon-gouwuche@2x.png.png"/>
+        		<span class="select">购物车</span>
+        		<img src="img/wode-icon-jiantou@2x.png.png"/>
+        	</li>
+        	</a>
+        	<a href="gouwuchi.html">
+        	<li>
+        		<img src="img/wode-icon-dingdan@2x.png.png"/>
+        		<span class="select">我的订单</span>
+        		<img src="img/wode-icon-jiantou@2x.png.png"/>
+        	</li>
+        	</a>
+        	<a href="gouwuchi.html">
+        	<li>
+        		<img src="img/wode-icon-youhuiquanz@2x.png.png"/>
+        		<span class="select">我的优惠卷</span>
+        		<img src="img/wode-icon-jiantou@2x.png.png"/>
+        	</li>
+        	</a>
+        	<a href="gouwuchi.html">
+        	<li>
+        		<img src="img/wode-icon-shoucang@2x.png.png"/>
+        		<span class="select">我的收藏</span>
+        		<img src="img/wode-icon-jiantou@2x.png.png"/>
+        	</li>
+        	</a>
+        	<a href="gouwuchi.html">
+        	<li>
+        		<img src="img/wode-icon-dongtai@2x.png.png"/>
+        		<span class="select">我的动态</span>
+        		<img src="img/wode-icon-jiantou@2x.png.png"/>
+        	</li>
+        	</a>
+        </ul>
+        <div class="foot">
+        	<a href="index.html">
+        		<img src="img/quanzi-icon-dianjiqian.png"/>
+        		<p>圈子</p>
+        	</a>
+        	<a href="index.html">
+        		<img src="img/zixun-icon-dianjiqian@2x.png"/>
+        		<p>资讯</p>
+        	</a>
+        	<a href="index.html" id="index">
+        		<img id="inde" src="img/fabu-icon@2x.png"/>
+        	</a>
+        	<a href="index.html">
+        		<img src="img/fuwu-icon-dianjiqian@2x.png"/>
+        		<p>服务</p>
+        	</a>
+        	<a href="index.html">
+        		<img src="img/wode-icon-dianjihou.png"/>
+        		<p>我的</p>
+        	</a>
+        </div>
+        <script type="text/javascript">
+        	var xiaoxi = document.getElementById("xiaoxi");
+        	var fs = document.getElementById("fs");
+        	var num = 1;
+        	xiaoxi.onclick = function(){
+        	if (num=="0") {
+        		window.location.href = "myxinxino.html";
+        	} else{
+        		window.location.href = "myxinxi.html";
+        	}
+        	}
+        </script>
+	</body>
+</html>

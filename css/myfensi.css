@@ -1,0 +1,42 @@
+.back img{
+				width: 70%;
+				margin-top: 6px;
+			}
+			.list{
+				
+			}
+			.list a{
+				display: block;
+				padding: 0px 0 10px 10px;
+				border-bottom: 1px solid #c9c9c9;
+			}
+			.list a h1{
+				display: inline-block;
+				margin-top: 8px;
+				margin-right: 10px;
+				color: #000;
+				font-size: 18px;
+				font-weight: 500;
+			}
+			.list a p{
+				margin-top: 8px;
+				color: #808080;
+			}
+			.list a span{
+				float: right;
+				margin-top: 8px;
+				color: #808080;
+			}
+			.list a .touxiang{
+				float: left;
+				width: 58px;
+				height: 58px;
+				margin-top: 5px;
+				margin-right: 10px;
+			}
+			.list a #sex{
+				width: 20px;
+				height: 20px;
+				position: relative;
+				top: 5px;
+			}

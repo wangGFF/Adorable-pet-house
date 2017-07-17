@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<script type="text/javascript" src="js/angular.min.js"></script>
+		<style type="text/css">
+			.back img{
+				width: 70%;
+				margin-top: 5px;
+			}
+			body{background: #eaeaea;}
+			.list{
+				background: #fff;
+				margin-top: 10px;
+			}
+			.list a{
+				display: block;
+				padding: 10px;
+				padding-bottom: 20px;
+				border-bottom: 1px solid #c9c9c9;
+			}
+			.list a h1{
+				display: inline-block;
+				margin-top: 8px;
+				color: #000;
+				font-size: 18px;
+				font-weight: 500;
+			}
+			.list a p{
+				margin-top: 8px;
+				color: #808080;
+			}
+			.list a span{
+				float: right;
+				margin-top: 8px;
+				color: #808080;
+			}
+			.list a img{
+				float: left;
+				width: 58px;
+				height: 58px;
+				margin-top: 5px;
+				margin-right: 10px;
+			}
+			#d{
+				width: 80%;
+				text-align: center;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-left: -40%;
+				margin-top: -25%;
+			}
+			#d img{
+				width: 30%;
+				
+			}
+			#d p{
+				color: #808080;
+				margin-top: 20px;
+			}
+		</style>
+	</head>
+	<body ng-app="app">
+		<div class="navs">
+		  <div class="bar">
+			<div class="back"  onclick="javascript:history.back(-1);">
+             <img class="back" src="img/icon-back@2x.png"/>
+            </div>
+            <span>消息中心</span>
+          </div>
+       </div>
+       <div id="list" class="list" ng-controller="main">
+       	 <a href="index.html" ng-repeat="itm in list">
+       	 	<img ng-src="img/{{itm.img}}.png" alt="">
+       	 	<h1>{{itm.name}}</h1>
+       	 	<span id="time"></span>
+       	 	<p>{{itm.detail}}</p>
+       	 </a>
+       </div>
+       <script type="text/javascript">
+      	var app = angular.module('app', []);
+            app.controller('main', function ($scope, $http) {
+            $http.get('json/myfensi.json')
+            .success(function (res) {
+            	console.log(res)
+            $scope.list = res.xinxi;
+           })
+        });
+       
+      </script>
+	</body>
+</html>
