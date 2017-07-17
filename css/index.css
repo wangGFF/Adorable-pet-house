@@ -1,0 +1,301 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym,address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt,var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody,tfoot,thead,tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header,hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video
+{
+  margin: 0;
+  padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul ,ol {
+    list-style: none;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#app{
+	width: 100%;
+	height: 100%;
+	position:relative;
+}
+#app ul{
+	display: block;
+	width:100%;
+	height:8%;
+	position: fixed;
+	bottom: 0;
+	font-size: 30px;
+	background-color: #eeeeee;
+	z-index: 999;
+	font-weight: bold;
+}
+#app ul li{
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+#app ul li a img{
+	width: 30%;
+	height: 50%;
+}
+#app ul li img{
+	width: 80%;
+	height: 130%;
+}
+#sub_circle .header{
+    width: 100%;
+    height: 6%;
+    background-color: #df4442;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    line-height:105px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+#sub_circle .header span{
+	display: inline-block;
+	width:25%;
+	height: 95%;
+	border-bottom:4px solid white; 
+}
+#sub_circle .header span:nth-child(2){
+	border-bottom:none; 
+
+}
+#sub_circle .box{
+	width: 100%;
+	height: 94%;
+}
+#sub_circle .box .sub_box{
+	width: 100%;
+	height: 25%;
+}
+#sub_circle .box .sub_box img{
+	width: 100%;
+	height: 100%;
+}
+#sub_circle .box #content_box{
+	width: 100%;
+	height: 85%;
+}
+#sub_circle .box #content_box .top_box{
+	width: 100%;
+	height: 15%;
+	position: relative;
+}
+#sub_circle .box #content_box .middle_box{
+	width: 100%;
+	height: 55%;
+	position: relative;
+}
+#sub_circle .box #content_box .bottom_box{
+	width: 100%;
+	height: 10%;
+	position: relative;
+}
+#sub_circle .box #content_box .top_box .top_img_box{
+	width: 15%;
+	height: 70%;
+	border-radius: 50%;
+	position: absolute;
+	top: 15%;
+	left: 5%;
+}
+#sub_circle .box #content_box .top_box .top_img_box .top_img{
+	width: 100%;
+	height: 100%;
+}
+#sub_circle .box #content_box .top_box .wordbox1{
+	width: 10%;
+	height: 30%;
+	font-size: 50px;
+	position: absolute;
+	left: 25%;
+	top: 20%;
+}
+#sub_circle .box #content_box .top_box .wordbox2{
+	width: 25%;
+	height: 30%;
+	font-size: 35px;
+	color: gray;
+	position: absolute;
+	left: 25%;
+	top: 60%;
+}
+#sub_circle .box #content_box .top_box .wordbox1_i{
+	width: 3%;
+	height: 18%;
+	position: absolute;
+	left: 37%;
+	top: 27%;
+}
+#sub_circle .box #content_box .top_box .wordbox1_i .wordbox1_i_img{
+	width: 100%;
+	height: 100%;
+}
+#sub_circle .box #content_box .top_box .wordbox2_i{
+	width: 3.5%;
+	height: 16%;
+	position: absolute;
+	left: 42%;
+	top: 64%;
+}
+#sub_circle .box #content_box .top_box .wordbox2_i .wordbox2_i_img{
+    width: 100%;
+    height: 100%;
+}
+#sub_circle .box #content_box .top_box .wordbox3{
+	width: 25%;
+	height: 30%;
+	font-size: 35px;
+	color: gray;
+	position: absolute;
+	left: 47%;
+	top: 60%;
+}
+#sub_circle .box #content_box .top_box .wordbox4{
+	width: 15%;
+	height: 30%;
+	font-size: 35px;
+	color: red;
+	position: absolute;
+	right:3%;
+	top: 40%;
+	border-radius: 40px;
+	text-align: center;
+	line-height:180%; 
+	border:1px solid red;
+}
+#sub_circle .box #content_box .middle_box .middle_box_img{
+	width: 100%;
+	height: 85%;
+}
+#sub_circle .box #content_box .middle_box .m_bottom_box{
+    position: absolute;
+    bottom: 0;
+    left: 4%;
+    width: 80%;
+    height: 15%;
+    font-size: 45px;
+    line-height: 240%;
+}
+#sub_circle .box #content_box .bottom_box .b_share1_box{
+	width: 6%;
+	height: 40%;
+	position: absolute;
+	left: 12%;
+	top: 30%;
+}
+#sub_circle .box #content_box .bottom_box .b_share1_box .b_share1_box_img{
+	width: 100%;
+	height: 100%;
+}
+#sub_circle .box #content_box .bottom_box .b_share2_box{
+	width: 15%;
+	height: 40%;
+	border-right:1px solid gray;
+	position: absolute;
+	left: 20%;
+	top: 30%;
+	font-size: 35px;
+	color: gray
+}
+
+#sub_circle .box #content_box .bottom_box .b_share3_box{
+	width: 6%;
+	height: 40%;
+	position: absolute;
+	left: 46%;
+	top: 30%;
+}
+#sub_circle .box #content_box .bottom_box .b_share3_box .b_share3_box_img{
+	width: 100%;
+	height: 100%;
+}
+#sub_circle .box #content_box .bottom_box .b_share4_box{
+	width: 15%;
+	height: 40%;
+	border-right:1px solid gray;
+	position: absolute;
+	left: 54%;
+	top: 30%;
+	font-size: 35px;
+	color: gray
+}
+
+#sub_circle .box #content_box .bottom_box .b_share5_box{
+	width: 6%;
+	height: 40%;
+	position: absolute;
+	left: 80%;
+	top: 30%;
+}
+#sub_circle .box #content_box .bottom_box .b_share5_box .b_share5_box_img{
+	width: 100%;
+	height: 100%;
+}
+#sub_circle .box #content_box .bottom_box .b_share6_box{
+	width: 6%;
+	height: 40%;
+	position: absolute;
+	left: 90%;
+	top: 30%;
+	font-size: 35px;
+	color: gray
+}
+#app .mengban_box {
+	width: 100%;
+	height: 60%;
+	background-color: #c9c9c9;
+	position: absolute;
+	top: 0;
+	z-index: 9999;
+	opacity: 0.2;
+	display:block;
+}
+#app .toshare1_box{
+	width: 100%;
+	height: 18%;
+	border-bottom:1px solid #c9c9c9;
+	z-index: 99999;
+	display: block;
+	position: absolute;
+	top: 0;
+	font-size: 45px;
+	line-height: 280%;
+}
+#app .toshare_box{
+	width: 100%;
+	height: 40%;
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	z-index: 9999;
+	display: block;
+}
+#app .toshare_box li{
+	list-style-type: none;
+	float: left;
+	display: inline-block;
+	width: 25%;
+	height: 30%;
+	font-size: 40px;
+	text-align: center;
+    margin-top: 16%;
+}
+#app .toshare_box li:nth-child(6){
+	margin-top:5%;
+}
+#app .toshare_box li:nth-child(7){
+	margin-top: 5%;
+}
+#app .toshare_box li img{
+	width: 60%;
+	height:70%; 
+}

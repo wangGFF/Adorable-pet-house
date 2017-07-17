@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html>
 <head>
     <meta charset="utf-8">
@@ -13,4 +14,71 @@
 <body>
 	
 </body>
+=======
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="Generator" content="Sublime Text3">
+    <meta name="Author" content="">
+    <meta name="website" content="">
+    <meta name="Description" content="zy">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <div id="app">
+    	<ul>
+    		<li id="quanzi"><a v-link="{ path: '/circle'}"><img src="img/quanzi-icon-quanzi@2x.png"><p>圈子</p></a></li>
+    		<li><a v-link="{ path: '/information'}"><img src="img/quanzi-icon-zixun@2x.png"><p>资讯</p></a></li>
+    		<li><img src="img/quanzi-icon-fabu@2x.png" style="position: relative;top: -30px;"></li>
+    		<li><a v-link="{ path: '/service'}"><img src="img/quanzi-icon-fueu@2x.png"><p>服务</p></a></li>
+    		<li><a v-link="{ path: '/my'}"><img src="img/quanzi-icon-wode@2x.png"><p>我的</p></a></li>    		
+    	</ul>
+    	<router-view></router-view>
+    </div>
+    <!-- 圈子内容 -->
+    <template id="circle">
+			<div style="height: 100%;" id="sub_circle">
+				<nav class="header">
+					<span><a>晒宠</a></span>
+					<span><a>关注</a></span>
+				</nav>
+				<div class="box">
+					<div class="sub_box">						
+						<img src="img/quanzi-banner@2x.png">	
+					</div>
+					<div id="content_box">
+						
+					</div>
+				</div>						
+			</div>
+	</template>
+	<!-- 资讯内容 -->
+	<template id="information" >
+			<div style="background-color: red;height: 100%;">
+				<h1>information</h1>
+				<p>This is the tutorial information vue-router</p>
+			</div>
+	</template>
+	<!-- 服务内容 -->
+	<template id="service">
+			<div style="background-color:skyblue;height: 100%;">
+				<h1>service</h1>
+				<p>This is the tutorial information vue-router</p>
+			</div>
+	</template>
+	<!-- 我的内容 -->
+	<template id="my">
+			<div style="background-color: teal;height: 100%;">
+				<h1>my</h1>
+				<p>This is the tutorial information vue-router</p>
+			</div>
+	</template>
+</body>
+<script src="js/vue.js"></script>
+<script src="js/vue-router.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/circle.js"></script>
+<script type="text/javascript" src="index.json"></script>
+>>>>>>> origin/master
 </html>
