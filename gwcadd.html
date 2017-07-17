@@ -5,72 +5,9 @@
 		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/gouwuchi.css"/>
 	</head>
-	<style type="text/css">
-		body{background: #EAEAEA;}
-		.back img{
-			width: 70%;
-			margin-top: 5px;
-		}
-		.add{
-			display: block;
-			padding: 10px;
-			background: #fff;
-			color: #DF4442;
-			border: 1px dashed #c9c9c9;
-		}
-		.add img{
-			width: 21px;height: 22.5px;
-		}
-		.add span{
-			position: relative;
-			top: -5px;left: 11px;
-		}
-		.tuan{
-			background: #fff;
-			
-		}
-		.mct{
-			border-bottom: 1px solid #c9c9c9;
-			padding: 10px;
-		}
-		.mct img{
-			width: 16px;height: 16px;
-		}
-		.mct .wz{
-			position: relative;
-			top: -2px;
-			font-size: 17px;
-			margin-right: 7.5px;
-		}
-		.mct img:last-child{
-			width: 10px;height: 17px;
-		}
-		.xq{
-			padding: 10px;
-			border: 1px solid red;
-			position: relative;
-		}
-		.xq img{
-			display: inline-block;
-			width: 101px;height: 100px;
-		}
-		.xq p{
-			position: absolute;
-		}
-		.xq p:nth-child(2){
-			top: 10%;
-			left: 111px;
-		}
-		.xq p:nth-child(3){
-			top: 40%;
-			left: 121px;
-		}
-		.xq p:nth-child(4){
-			top: 60%;
-			left: 121px;
-		}
-	</style>
+	
 	<body>
 		<div class="navs">
 		  <div class="bar">
@@ -92,11 +29,41 @@
         	<img src="img/jiantou-huise@2x.png.png"/>
         	</div>
         	<div class="xq">
-        		<img src="img/shangpin@2x.png.png"/>
-        		<p>【618秒杀】派瑞宠物湿巾单包5片装</p>
-        		<p><span>5片</span><span>x1</span></p>
-        		<p>￥2.00<p>
+        		<div class="fl">
+        			<img src="img/shangpin@2x.png.png"/>
+        		</div>
+        		<div class="fr">
+        			<p style="margin-left: -5px;">【618秒杀】派瑞宠物湿巾单包5片装</p>
+        		    <p><span id="geshu">5片</span><span style="float: right;">x1</span></p>
+        		    <p id="danjia">￥2.00<p>
+        		</div>
         	</div>
         </div>
+        <input type="text" id="liuyan" placeholder="写留言" />
+        	<a href="gwcyhj.html" class="yhj">
+        		<span style="margin-right: 8px;">优惠卷</span>
+        	<span id="num">0张可用</span>
+        	<img src="img/jiantou-huise@2x.png.png"/>
+        	</a>
+        <div class="jiage">
+        	<p><span>商品金额</span><span class="money">￥<span id="money">2.00</span></span></p>
+        	<p><span>运费<span class="ys">（不参与优惠）</span></span><span class="money">￥<span id="money1">5.00</span></span></p>
+        	<p><span>优惠<span class="ys">（最高不超过商品总价）</span></span><span class="money">-￥<span id="money2">0.00</span></span></p>
+        </div>
+        <div class="jiesuan">
+        	<span class="qujs"><a href="gouwuchi.html">去结算</a></span>
+        	<span class="yingf">应付：<span id="yuan">￥<span id="zong">7.00</span></span></span>
+        </div>
+        <script type="text/javascript">
+        	var money = document.getElementById("money");
+        	var money1 = document.getElementById("money1");
+        	var money2 = document.getElementById("money2");
+        	var zong = document.getElementById("zong");
+        	var a = Number(money.innerHTML);
+        	var b = Number(money1.innerHTML);
+        	var c = Number(money2.innerHTML);
+        	var d = (a+b-c).toFixed(2);
+        	zong.innerHTML = d+"元";
+        </script>
 	</body>
 </html>
