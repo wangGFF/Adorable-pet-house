@@ -38,7 +38,7 @@ window.onload=function(){
         	sicknessAllWord.className="sicknessAllWord";
         	var sicknessAllName=document.createElement("a");
         	sicknessAllName.className="sicknessAllName";
-        	sicknessAllName.href="#";
+        	sicknessAllName.href=sicknessAll[b].href;
         	sicknessAllName.innerHTML=sicknessAll[b].word;
         	sicknessAllWord.appendChild(sicknessAllName);
         	sicknessAllBox.appendChild(sicknessAllWord);

@@ -149,7 +149,8 @@ sickness({
             },
             {
             	"word":"阿福丁中毒",
-            	"name":""
+            	"name":"",
+                  "href":"afuding.html"
             },
             {
             	"word":"阿司匹林中毒",

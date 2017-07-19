@@ -45,7 +45,8 @@
     	height: 480px;
     	position: fixed;
     	right: 5px;
-    	bottom: 20px;
+    	bottom: 50%;
+        margin-bottom: -240px;
     	font-size: 13px;
     }
     #EnglishLetterWord>.EnglishBigBox{
