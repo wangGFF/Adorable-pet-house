@@ -56,3 +56,21 @@
         }
     })
  })
+ $(function(){
+    $(".submitPayPw").click(function(e){
+        if ($(".inputPayPw1").val().length>=6&&$(".inputPayPw1").val().length<=20&&$(".inputPayPw2").val().length>=6&&$(".inputPayPw2").val().length<=20) {
+            if ($(".inputPayPw1").val()!=$(".inputPayPw2").val()) {
+                alert("请重新输入密码");
+                $(".inputPayPw2").val("");
+                e.preventDefault();
+            }else{
+                alert("设置成功");
+            }
+        }else{
+            $(".inputPayPw1").val("");
+            $(".inputPayPw2").val("");
+            e.preventDefault();
+            alert("输入的密码只能为6-20位字符");
+        }
+    })
+ })

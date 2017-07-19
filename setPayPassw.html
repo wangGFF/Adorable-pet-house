@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>修改登录密码</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <link rel="stylesheet" type="text/css" href="css/sicknessModel.css">
+    <link rel="stylesheet" type="text/css" href="css/mySetPetInforAdd.css">
+    <link rel="stylesheet" type="text/css" href="css/setPetList.css">
+    <link rel="stylesheet" type="text/css" href="css/setAccountSafe.css">
+</head>
+<body>
+    <!-- 头部-->
+    <div class="top_top_top"></div>
+    <div class="top_sickness">
+        <a href="setAccountSafe.html" class="top_sickness_back">
+            <img src="img/fanhui@2x.png"></img>
+        </a>
+        <p>修改登录密码</p>
+    </div>
+    <div class="petListBox">
+        <div>
+            <span class="payPwTip">密码必须含有6-20位英文字母和数字的组合</span>
+            <form action="" method="POST">
+                <ul class="changPayPw">
+                    <li class="inputPayLi1">
+                        <div>
+                            <span>设置支付密码</span>
+                            <input type="password" name="newPayPassword"  class="inputPayPw1">
+                        </div>
+                    </li>
+                    <li class="inputPayLi2">
+                        <div>
+                            <span>确认支付密码</span>
+                            <input type="password" name="confirmPayPw"  class="inputPayPw2">
+                        </div>
+                    </li>
+                </ul>
+                <input type="submit" name="" onclick="" value="提交" class="submitPayPw">
+            </form>
+        </div>
+        <div class="paySmallTip">
+            <div>
+                <ul>
+                    <li>
+                        <p>什么是支付密码，与登录密码有什么不同？</p>
+                        <span>支付密码仅用于余额支付时必须输入的密码，不同于登录密码。不建议支付密码设置与登录密码相同。</span>
+                    </li>
+                    <li>
+                        <p>结算时，我的账户为什么冻结了？</p>
+                        <span>支付密码连续输入错误3次，账户将冻结两小时。</span>
+                    </li>
+                    <li>
+                        <p>忘记支付密码怎么办</p>
+                        <span>建议支付密码不同于登录密码，如果忘记支付密码，可通过绑定的手机号重置支付密码。</span>
+                    </li>
+                    <li style="height: 44px;border-bottom: none;">
+                        <p>如有其他疑问，请联系在线客服</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/vue.js"></script>
+<script type="text/javascript" src="js/setBindPhone.js"></script>
+</html>
