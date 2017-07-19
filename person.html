@@ -20,6 +20,92 @@
     	<img src="img/duifangzhuye-banner@2x.png">
     	<span><img src="img/duifangzhuye-touxiang1@2x.png"></span>
     	<span>ID：301476&nbsp;<span><img src="img/duifangzhuye-icon-nan.png"></span></span>
+        <span>+关注</span>
+        <span><span><img src="img/duifangzhuye-icon-siliao.png"></span><p>私聊</p></span>
+        <div class="right_top_sjx_div"><img src="img/sjx1.svg"></div>
+        <div class="right_top_div" >
+            <ul>
+                <li><span><img src="img/duifangzhuye-icon-fenxiang.png"></span><span>分享</span></li>
+                <li><span><img src="img/duifangzhuye-icon-lahei.png"></span><span>拉黑</span></li>
+                <li><span><img src="img/duifangzhuye-icon-jubao.png"></span><span>举报</span></li>
+
+            </ul>
+        </div>
     </div>
+    <div class="num_div">
+        <ul>
+            <li><p>16</p><p>粉丝</p></li>
+            <li><p>193</p><p>关注</p></li>
+            <li><p>45</p><p>被赞数</p></li>
+        </ul>
+    </div>
+    <div class="gray_div"></div>
+    <div class="center_div">
+        <span><img src="img/duifangzhuye-touxiang2@2x.png"><p>小黑</p></span>
+    </div>
+    <div class="mengban1">
+        <div class="sub_to">
+            <span>分享到</span>
+        </div>  
+        <div class="sub_content">
+            <ul>
+                <li><span><img src="img/quanzi-icon-weixin@2x.png"></span><p>微信</p></li>
+                <li><span><img src="img/quanzi-icon-pengyouquan@2x.png"></span><p>朋友圈</p></li>
+                <li><span><img src="img/quanzi-icon-QQ@2x.png"></span><p>QQ</p></li>
+                <li><span><img src="img/quanzi-icon-QQkongjian@2x.png"></span><p>QQ空间</p></li>
+                <li><span><img src="img/quanzi-icon-weibo@2x.png"></span><p>微博</p></li>
+                <li><span><img src="img/fuzhilianjie@2x.png"></span><p>复制链接</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="mengban2">
+        
+    </div>
+    <div class="mengban3">
+        
+    </div>
+    <div class="mengban4">
+        <div><img src="img/tuceng.png"></div>
+        <div>
+            <span>加入黑名单</span>
+            <textarea placeholder="必须要关小黑屋？...亲，给个理由呗"></textarea>
+            <span>确定</span>
+            <span>取消</span>
+        </div>
+    </div>
+    <div class="mengban5">
+        <div><img src="img/tuceng.png"></div>
+        <div>
+            <span>举报反馈</span>
+            <textarea placeholder="坚决打击，举报有礼"></textarea>
+            <span>确定</span>
+            <span>取消</span>
+        </div>
+    </div>
+    <div class="bottom_div">
+        <div class="left_div">
+            <div class="small_div1"></div>
+            <div id="small_div2" v-for="item in data.list">
+                <span>{{item.time}}</span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+        <div class="right_div"> 
+            <div v-for="item in data.list" class="img_div">
+            　　<div class="sjx"><img src="img/sjx.svg"></div>
+                <div class="white_div">
+                    <span><img v-bind:src="'img/'+item.img"></span>
+                    <span>{{item.word_name}}</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
 </body>
+<script type="text/javascript" src="js/vue.js"></script>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/person.js"></script>
 </html>

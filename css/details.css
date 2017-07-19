@@ -1,0 +1,240 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym,address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt,var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody,tfoot,thead,tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header,hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video
+{
+  margin: 0;
+  padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul ,ol {
+    list-style: none;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+}
+.header{
+    width: 100%;
+    height: 44px;
+    background-color: #df4442;
+    color: white;
+    font-size: 18px;
+    line-height: 44px;
+    position: relative;
+}
+.header span:nth-child(1){
+    display: inline-block;
+    width: 5%;
+    height: 50%;
+    position: absolute;
+    top: 5px;
+    left: 4%;
+}
+.header span:nth-child(1) img{
+   width: 100%;
+   height: 100%;
+}
+.header p{
+    display: inline-block;
+    line-height: 44px;
+    position: absolute;
+    left: 46%;
+}
+.content{
+    width: 100%;
+    height: 55%;
+}
+.content .C_top{
+    width: 100%;
+    height: 20%;
+    position: relative;
+}
+.content .C_top span:nth-child(1){
+    display: inline-block;
+    width: 15%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.content .C_top span:nth-child(1) img{
+    width: 100%;
+    height: 100%;
+}
+.content .C_top span:nth-child(2){
+    display: inline-block;
+    width: 15%;
+    height: 30%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+.content .C_top span:nth-child(2) span{
+    width: 30%;
+    height: 80%;
+    display: inline-block;
+    position: relative;
+    left:10%;
+}
+.content .C_top span:nth-child(3){
+    display: inline-block;
+    height: 30%;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    font-size: 14px;
+}
+.content .C_top span:nth-child(4){
+    display: inline-block;
+    height: 30%;
+    width: 17%;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    font-size: 14px;
+    text-align: right;
+}
+.content .C_top span:nth-child(4) span{
+    height: 60%;
+    width: 20%;
+    display: inline-block;
+}
+.content .C_top span:nth-child(5){
+    display: inline-block;
+    height:31.5px;
+    width: 20%;
+    border:1px solid gray;
+    position: absolute;
+    top: 20%;
+    right:5%;
+    font-size: 14px;
+    text-align: right;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 31.5px;
+    color: gray;
+}
+.content .C_center{
+    width: 100%;
+    height: 60%;
+}
+.content .C_center img{
+    width: 100%;
+    height: 100%;
+}
+.content .C_bottom{
+    width: 100%;
+    height:75px;
+    position: relative;
+}
+.content .C_bottom span:nth-child(1){
+    width: 90%;
+    height: 37.5px;
+    display: inline-block;
+    border-bottom: 1px solid gray;
+    position: absolute;
+    left: 5%;
+    font-size: 16px;
+    line-height: 37.5px;
+}
+.content .C_bottom span:nth-child(2){
+    width: 90%;
+    height: 37.5px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    font-size: 16px;
+    line-height: 37.5px;
+}
+.content .C_bottom span:nth-child(2) ul{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 10%;
+}
+.content .C_bottom span:nth-child(2) ul li{
+    width: 33%;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    margin-top: 5px;
+    line-height:25px; 
+    position: relative;
+    top: 6px;
+
+}
+.content .C_bottom span:nth-child(2) ul li img{
+    width:20%;
+    height: 80%;
+}
+.content .C_bottom span:nth-child(2) ul li p{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: -2px;
+    width: 40%;
+    border-right: 1px solid gray;
+}
+.content .C_bottom span:nth-child(2) ul li:nth-child(3) p{
+    border:none;
+}
+@media screen and (min-width: 600px) {
+    .content .C_bottom span:nth-child(2) ul li img{
+        width:15%;
+        height: 80%;
+    }
+    .content .C_bottom span:nth-child(2) ul li p{
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: -2px;
+    width: 40%;
+    border-right: 1px solid gray;
+}
+}
+.wirte{
+    width: 100%;
+    height: 34px;
+    border-top: 1px solid gray;
+    position: fixed;
+    bottom: 0;
+}
+.wirte span:nth-child(1){
+    display: inline-block;
+    width:8%;
+    height: 80%;
+    margin-top: 1%;
+    margin-left: 2%;
+    line-height: 36px;
+}
+.wirte span:nth-child(3){
+    display: inline-block;
+    width: 15%;
+    height: 80%;
+    position: relative;
+    top: -5px;
+    left: 5%;
+}
+.wirte input{
+    width: 60%;
+    height: 60%;
+    position: relative;
+    top: -8px;
+    left: 2%;
+    border-radius: 6px;
+    outline: none;
+    border:none;
+}
+.wirte span:nth-child(1) img{
+    width: 100%;
+    height: 100%;
+}
+.bottom{
+    width: 100%;
+    height: 39%;
+    background-color:#eeeeee;
+}

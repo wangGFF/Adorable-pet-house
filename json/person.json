@@ -1,0 +1,24 @@
+{
+    "errno": 0,
+    "data": {
+        "list":[
+            {"ID":1,
+                "word_name":"虎皮鹦鹉",
+                "time":"06/09",
+                "img":"duifangzhuye-img1@2x.png"               
+            },
+            {"ID":1,
+                "word_name":"虎皮鹦鹉",
+                "time":"06/09",
+                "img":"duifangzhuye-img1@2x.png"               
+            },
+            {"ID":1,
+                "word_name":"虎皮鹦鹉",
+                "time":"06/09",
+                "img":"duifangzhuye-img1@2x.png"               
+            }
+               
+        ]
+        
+    }
+}
