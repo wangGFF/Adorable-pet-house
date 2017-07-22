@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<meta name="Generator" content="Sublime Text3">
+<meta name="Author" content="">
+<meta name="website" content="">
+<meta name="Description" content="hhh">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/dog_mind_reading.css">
+</head>
+<body>
+<!-- 求助类型 -->
+<div class="For_Help_Type">
+	    <div class="For_help_type_bar">
+		<div class="For_help_type_label" id="back">
+		<img src="img/icon-back@2x.png" id="For_Help_Type_back" style="height:100%;width:100%">
+		</div>
+		<div class="For_help_type_guide">求助类型</div>
+		</div>
+	<div class="For_help_type_box">
+    		<ul id="For_help_type">
+				<template v-for="item in news">
+				    <li v-bind:id="item.id" ><img  v-bind:src="'img/' + item.type" alt=""></img><span id="biaoti">{{item.title}}</span><span id="contenttype">{{item.contenttype}}</span></li>
+				    <hr>
+				</template>
+			</ul>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/vue.min.js"></script>
+<script type="text/javascript" src="js/fahelp1.js"></script>
+</html>

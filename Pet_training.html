@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<meta name="Generator" content="Sublime Text3">
+<meta name="Author" content="">
+<meta name="website" content="">
+<meta name="Description" content="hhh">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/emergencySaveYou.css">
+
+	
+</head>
+<body>
+   <div class="Save_box" id="Save_box">	
+	    <div class="Save_head">
+				<div class="Save_label" id="dog_back">
+				<img src="img/icon-back@2x.png" style="height:100%;width:100%" id="Test_back">
+				</div>
+				<div class="Save_guide">宠物训练</div>
+				
+		</div>
+        
+		<!-- 路由 -->
+		<div class="dogcat" id="dogcat">
+					<a href="#dog">狗狗</a>
+					<a href="#cat">猫咪</a>
+					<component v-bind:is="view"></component><!-- 挂载点，view是组件名 -->
+		</div>
+	</div>	
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/vue.min.js"></script>
+<script type="text/javascript" src="js/Pet_training.js"></script>
+</html>

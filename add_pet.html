@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <link rel="stylesheet" type="text/css" href="css/add_pet.css">
+    
+</head>
+<body>
+    <!-- 头部-->
+    <div class="head_add" >
+    <div class="top_top_top"></div>
+    <div class="top_sickness">
+        <a  class="top_sickness_back">
+            <img src="img/icon-back@2x.png" id="top_sickness_back"></img>
+        </a>
+        <p>添加宠物</p>
+    </div>
+    <!-- 添加宠物 -->
+    <div class="formAll">
+        <form action="" method="post">
+            <ul>
+                <li>
+                    <span>宠物名称</span>
+                    <input type="text" name="petName" placeholder="设置宠物名称" class="petName">
+                </li>
+                <li>
+                    <span>宠物性别</span>
+                    <input type="text" name="petSex" class="inputSex">
+                    <div class="petSex">
+                        <img src="img/xingbie_xuanzhong1@2x.png">
+                        <span class="petSexW1">MM</span>
+                        <img src="img/xingbie_weixuanzhong2@2x.png">
+                        <span class="petSexW2">GG</span>
+                    </div>
+                </li>
+                <li id="select_pet_box">
+                    <span>宠物品种</span>
+                    <span id="select_pet">选择宠物品种</span>
+                    <img src="img/jinru@2x.png">
+                </li>
+                <li>
+                    <span>宠物生日</span>
+                    <input type="text" name="petBirth" id="input1" placeholder="选择宠物生日"> 
+                    <img src="img/jinru@2x.png">
+                </li>
+                <li>
+                    <span>到家时间</span>
+                    <input type="text" name="homeTime" placeholder="选填">
+                    <img src="img/jinru@2x.png">
+                </li>
+            </ul>
+            <input type="submit" name="submit" class="submitAll">
+        </form>
+    </div>
+ </div>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/vue.min.js"></script>
+<script type="text/javascript" src="js/add_pet_shijian.js"></script>
+<script type="text/javascript" src="js/add_pet.js"></script>
+</body>
+</html>

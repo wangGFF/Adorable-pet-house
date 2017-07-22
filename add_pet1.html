@@ -1,0 +1,34 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <link rel="stylesheet" type="text/css" href="css/add_pet.css">
+    
+</head>
+<body>
+ <!-- 宠物种类 -->
+     <div class="reading_box" id="reading_box" >
+         <!-- 头部     -->
+        <div class="reading_head">
+            <div class="reading_label" >
+                <img src="img/icon-back@2x.png" style="height:100%;width:100%" id="readingg_back">
+                </div>
+                <div class="reading_guide">宠物种类</div>
+        </div>
+        <ul id="reading">
+            <template v-for="item in news">
+                <li v-bind:id="item.id" ><span id="reading_span">{{item.title}}</span><img  v-bind:src="'img/' + item.type" alt=""></img></li>
+                <hr>
+            </template>
+        </ul>
+
+     </div>
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/vue.min.js"></script>
+<script type="text/javascript" src="js/add_pet1.js"></script>
+</html>

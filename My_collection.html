@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <link rel="stylesheet" type="text/css" href="css/My_dynamic.css">
+    
+</head>
+<body>
+    <!-- 头部-->
+    <div class="My_dynamic" >
+        <div class="navigation_bar">
+          <div class="return_label" id="back">
+          <img src="img/icon-back@2x.png" style="height:100%;width:100%">
+          </div>
+          <div class="clerrer_bible_guide">我的收藏</div>
+        </div>
+        <!-- 路由 -->
+    <div class="dogcat" id="dogcat">
+          <a href="#dog">资讯</a>
+          <a href="#cat">商品</a>
+          <component v-bind:is="view"></component><!-- 挂载点，view是组件名 -->
+    </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/vue.min.js"></script>
+<script type="text/javascript" src="js/My_collection.js"></script>
+</html>

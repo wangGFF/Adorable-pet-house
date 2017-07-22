@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<meta name="Generator" content="Sublime Text3">
+<meta name="Author" content="">
+<meta name="website" content="">
+<meta name="Description" content="hhh">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/dog_mind_reading.css">
+</head>
+<body>
+
+     <div class="reading_box" id="reading_box">
+         <!-- 头部	 -->
+	    <div class="reading_head">
+			<div class="reading_label" >
+				<img src="img/icon-back@2x.png" style="height:100%;width:100%" id="readingg_back">
+				</div>
+				<div class="reading_guide">狗狗读心术</div>
+		</div>
+		<ul id="app">
+			<template v-for="item in news">
+			    <li v-bind:id="item.id" >{{item.title}}<img  v-bind:src="'img/' + item.type" alt=""></img></li>
+			    <hr>
+		    </template>
+		</ul>
+
+	 </div>
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/vue.min.js"></script>
+<script type="text/javascript" src="js/dog_mind_reading.js"></script>
+</html>

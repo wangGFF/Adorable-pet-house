@@ -1,0 +1,171 @@
+*{margin: 0;padding: 0;}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style-type: none;
+}
+/*基于最大盒子的媒体查询响应*/
+@media screen and (min-width:900px) {
+    html {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:900px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:400px) and (max-width:700px) {
+    html {
+        font-size: 12px;    
+    }
+}
+@media screen and (min-width:370px) and (max-width:400px) {
+    html {
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:350px) and (max-width:370px) {
+    html {
+        font-size: 10.5px;
+    }
+}
+@media screen and (min-width:300px) and (max-width:350px) {
+    html {
+        font-size: 9.3px;
+    }
+}
+@media screen and (max-width:300px) {
+    html{
+        font-size: 6px;
+    }
+}
+.Save_box,.burn_box{
+	width:100%;
+}
+.Save_head,.burn_head{
+    width:100%;
+    height: 44px; 
+    background-color:#df4442;
+    position: relative;
+}
+.Save_label,.burn_label{
+	width: 4.255555%;
+    height:50%;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+.Save_guide,.burn_guide{
+	margin:auto;
+    font-size: 1.5rem;
+    color:#fff;
+    position: absolute;
+    top: 12px;
+    left:50%;
+    margin-left: -35px;
+}
+.burn_share{
+   font-size: 1.4rem;
+   color:#fff;
+   position: absolute;
+   top: 12px;
+   right:15px; 
+
+}
+.dogcat{
+	width: 100%;
+	height: 40px;
+	font-size: 1.5rem;
+	position: relative;
+}
+.dogcat a{
+	display: block;
+	width: 49.8%;
+	height: 100%;
+	text-align: center;
+	line-height: 40px;
+	color:#000;
+    border: 1px solid #eaeaea;
+}
+.dogcat a:nth-child(1) {
+    border-left: 0;
+}
+.dogcat a:nth-child(2) {
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-right: 0;
+}
+.accident_box,.burn_content{
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+#accident,#accident_second,#foreign{
+	line-height: 44px;
+	width: 100%;
+	height: 44px;
+	background-color: #eaeaea;
+	text-indent:15px;
+  font-size: 1.5rem;
+
+}
+#Accident{
+  line-height: 44px;
+  width: 100%;
+  height: 44px;
+  background-color: #eaeaea;
+  font-size: 1.5rem;
+  text-indent:15px;
+}
+.accident_content,.accident_second_content,.foreign_tencont{
+   padding: 15px;
+   padding-bottom: 0;
+   padding-top: 0;
+   font-size: 1.5rem; 
+}
+.accident_content li,.accident_second_content li,.foreign_tencont li{
+    display: block;
+    border-bottom:1px solid gray; 
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    position: relative;
+}
+#zuihou{
+    border: 0;
+}
+.accident_content li img,.accident_second_content li img,.foreign_tencont li img{
+  
+  width: 10px;
+  height: 17px;
+  position: absolute;
+  right: 3px; 
+  top: 15px; 
+}
+
+
+/*宠物训练*/
+
+#dog_xunlian{
+  width: 90%;
+  padding: 0 15px;
+}
+#dog_xunlian li{
+  display: block;
+    border-bottom:1px solid gray; 
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    position: relative;
+}
+#dog_xunlian li img{
+  width: 10px;
+  height: 17px;
+  position: absolute;
+  right: 3px; 
+  top: 15px; 
+}

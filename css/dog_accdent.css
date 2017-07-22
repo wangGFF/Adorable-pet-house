@@ -1,0 +1,170 @@
+*{margin: 0;padding: 0;}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style-type: none;
+}
+/*基于最大盒子的媒体查询响应*/
+@media screen and (min-width:900px) {
+    html {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:900px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:400px) and (max-width:700px) {
+    html {
+        font-size: 12px;    
+    }
+}
+@media screen and (min-width:370px) and (max-width:400px) {
+    html {
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:350px) and (max-width:370px) {
+    html {
+        font-size: 10.5px;
+    }
+}
+@media screen and (min-width:300px) and (max-width:350px) {
+    html {
+        font-size: 9.3px;
+    }
+}
+@media screen and (max-width:300px) {
+    html{
+        font-size: 6px;
+    }
+}
+.burn_box{
+	width:100%;
+}
+.burn_head{
+    width:100%;
+    height: 44px; 
+    background-color:#df4442;
+    position: relative;
+}
+.burn_label{
+	width: 4.255555%;
+    height:50%;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+.burn_guide{
+	margin:auto;
+    font-size: 1.5rem;
+    color:#fff;
+    position: absolute;
+    top: 12px;
+    left:50%;
+    margin-left: -35px;
+}
+.trainingdog_guide{
+  margin:auto;
+    font-size: 1.5rem;
+    color:#fff;
+    position: absolute;
+    top: 12px;
+    left:50%;
+    margin-left: -25%;
+}
+.burn_share{
+   font-size: 1.4rem;
+   color:#fff;
+   position: absolute;
+   top: 12px;
+   right:15px; 
+
+}
+.burn_content{
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+#first1,#first3,#first5{
+    width: 100%;
+    height:44px; 
+    line-height: 44px;
+    background-color: #eaeaea;
+    text-indent:15px;
+    font-size: 1.5rem;
+}
+#second1, #second3, #second5{
+    width: 90%;
+    padding: 15px;
+}
+
+
+/*蒙版*/
+.popWindow {  
+        background-color:#000;  
+        width: 100%;  
+        height: 100%;  
+        left: 0;  
+        top: 0;  
+        filter: alpha(opacity=50);  
+        opacity: 0.5;  
+        z-index: 10;  
+        position: absolute; 
+    } 
+    .maskLayer { 
+        border:1px solid #ccc;   
+        background-color:#fff;  
+        width:100%;  
+        height: 270px;  
+        line-height: 30px;  
+        left: 0;  
+        bottom: 0;  
+        color:#000;  
+        z-index: 20;  
+        position:absolute; 
+        color:#6b6b6b; 
+          
+    }
+
+
+    /*分享 */
+    .share_here{
+      width: 100%;
+      height: 44px;
+      border: 1px solid #eaeaea;
+      line-height: 44px;
+      font-size: 1.5rem;
+      text-indent:15px;
+    }
+    .share_this{
+      width: 100%;
+      height:82%;
+    }
+    .share_this #mb{
+  height: 70%;
+    }
+    .share_this #fxto{
+      height: 30%;
+      padding-bottom: 10px;
+      background-color: #fff;
+    }
+    .share_this .wenzi{
+      padding: 5px 10px;
+      border-bottom: 1px solid #ccc;
+    }
+    .share_this .fxtu{
+      float: left;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    .share_this .fxtu img{
+      width: 45px;
+      height: 44px;
+    }
+
+
+   

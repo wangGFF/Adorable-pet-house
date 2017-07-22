@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<meta name="Generator" content="Sublime Text3">
+<meta name="Author" content="">
+<meta name="website" content="">
+<meta name="Description" content="hhh">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/dog_mind_reading.css">
+</head>
+<body>
+   <div class="help_box" id="help_box" >	
+	    <!-- 头部 -->
+	    <div class="help_head">
+				<div class="help_label" >
+				<img src="img/icon-back@2x.png" style="height:100%;width:100%" id="help_back">
+				</div>
+				<div class="help_guide">发求助</div>
+				<div class="help_complete">完成</div>
+		</div>
+        <ul id="help">
+			<template v-for="item in news">
+			    <li v-bind:id="item.id" >{{item.title}}<img  v-bind:src="'img/' + item.type" alt=""></img></li>
+			    <hr>
+		    </template>
+		</ul>
+		<div class="help_null"></div>
+		<div class="help_content" >
+			<input type="text" placeholder="输入标题">
+			<textarea maxlength="200" placeholder="尽可能详细的描述宠物的情况，包括品种、年龄、性别、驱虫和免疫等情况，以方便专家为你提供更准确的解决方案。（必填）"></textarea>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/vue.min.js"></script>
+<script type="text/javascript" src="js/fahelp.js"></script>
+</html>

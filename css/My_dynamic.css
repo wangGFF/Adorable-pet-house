@@ -1,0 +1,360 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+/*基于最大盒子的媒体查询响应*/
+@media screen and (min-width:900px) {
+    html {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:900px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:400px) and (max-width:700px) {
+    html {
+        font-size: 12px;    
+    }
+}
+@media screen and (min-width:370px) and (max-width:400px) {
+    html {
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:350px) and (max-width:370px) {
+    html {
+        font-size: 10.5px;
+    }
+}
+@media screen and (min-width:300px) and (max-width:350px) {
+    html {
+        font-size: 9.3px;
+    }
+}
+@media screen and (max-width:300px) {
+    html{
+        font-size: 6px;
+    }
+}
+body{
+	background-color: #eaeaea;
+}
+
+.navigation_bar{
+    width:100%;
+    height: 44px; 
+    background-color:#df4442;
+    position: relative;
+}
+.return_label{
+	width: 4.255555%;
+    height:50%;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+.clerrer_bible_guide{
+	margin:auto;
+    font-size: 1.5rem;
+    color:#fff;
+    position: absolute;
+    top: 12px;
+    left:50%;
+    margin-left: -30px;
+}
+.My_dynamic_content{
+	position: relative;
+	
+}
+.My_dynamic_content img{
+	width: 75px;
+	height: 100px;
+    position:absolute; 
+    left: 50%;
+    margin-left: -38px;
+    top: 150px;
+}
+.My_dynamic_content span{
+	position: absolute;
+	left: 50%;
+	top: 270px;
+	margin-left: -75px;
+	font-size: 1.4rem;
+	color:#000;
+}
+.My_Dynamic_Content{
+	width: 100%;
+	height:180px;
+	position: relative; 
+
+}
+.My_Dynamic_Content img:nth-child(1){
+	width: 100%;
+	height:180px;
+}
+.My_Dynamic_Content img:nth-child(2){
+	width: 63px;
+	height:63px;
+	position: absolute;
+	left: 50%;
+	margin-left: -32px;
+	top: 25px;
+}
+.My_Dynamic_Content_geren{
+	position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	top: 90px;
+	font-size: 1.4rem;
+	color: #fff;
+
+}
+.My_Dynamic_Content_geren p{
+	margin-top: 10px;
+    text-align: center;
+}
+.My_dynamic_content_bod{
+	width: 100%;
+	
+}
+.My_Dynamic_content_box{
+	padding: 0 15px;
+	width: 90%;
+	margin-top: 28px;
+	overflow: auto;
+
+}
+.My_Dynamic_content_box1{
+	float: left;
+	width: 60px;
+}
+
+.My_Dynamic_content_box1 span:nth-child(1){
+    font-size: 1.5rem;
+}
+.My_Dynamic_content_box1 span:nth-child(2){
+    font-size: 1.4rem;
+    color:#a3a3a3;
+}
+
+.My_Dynamic_content_box2{
+	overflow: auto;
+	width:75%;
+	
+}
+.My_Dynamic_content_box2 img{
+	float: left;
+}
+.My_Dynamic_content_box2 div{
+	float: left;
+}
+.My_Dynamic_content_box2 div:nth-child(2){
+	font-size: 1.5rem;
+	 margin-left: 10px;
+}
+.My_Dynamic_content_box2 div:nth-child(3){
+	font-size: 1.3rem;
+	color: #a3a3a3; 
+    margin-top:10px;
+    margin-left: 10px;
+}
+
+
+/*我的收藏*/
+.dogcat{
+	background-color: #fff;
+	width: 100%;
+	height: 40px;
+	font-size: 1.5rem;
+	position: relative;
+}
+.dogcat a{
+	display: block;
+	width: 49.8%;
+	height: 100%;
+	text-align: center;
+	line-height: 40px;
+	color:#000;
+    border: 1px solid #eaeaea;
+}
+.dogcat a:nth-child(1) {
+    border-left: 0;
+}
+.dogcat a:nth-child(2) {
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-right: 0;
+}
+.My_collection{
+	border: 1px solid #eaeaea;
+	width: 100%;
+}
+.My_collection1,.My_collection_second{
+	width: 90%;
+	position: relative;
+	padding: 15px;
+	background-color: #fff;
+	margin-top: 10px;
+}
+.My_collection1 img,.My_collection_second img{
+	width: 60px ;
+	height: 60px;
+}
+.My_collection img{
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+}
+
+.My_collection2,.My_collection_second2{
+	width: 70%;
+	position: absolute;
+	top: 0;
+	left: 80px;
+	top: 15px;
+    font-size: 1.4rem;
+}
+
+.My_collection2 p:nth-child(2){
+	color:#a3a3a3;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.My_collection2 p:nth-child(3){
+	color:#df4442;
+	margin-left: 6px;
+	margin-top: 5px;
+}
+.My_collection_second2 p:nth-child(2){
+    color:#a3a3a3;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.My_collection_second2 p:nth-child(3){
+    color:#df4442;
+	margin-left: 6px;
+	margin-top: 5px;
+}
+
+.My_collec{
+	width: 100%;
+	position: relative;
+}
+.My_collec img{
+	width:75px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	margin-left: -37px;
+	top: 150px;
+}
+.My_collec span{
+	position: absolute;
+	left: 50%;
+	margin-left:-75px; 
+	top: 260px;
+	font-size: 1.4rem;
+}
+.ggg{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.My_COllEction{
+	width: 100%;
+	
+}
+.My_COllEction1{
+    width: 90%;
+    position: relative;
+	padding: 15px;
+	background-color: #fff;
+	margin-top: 10px;
+}
+.My_COllEction1 p:nth-child(1){
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.My_COllEction1 span:nth-child(4){
+    font-size: 1.4rem;
+    color: #a3a3a3;
+}
+.My_COllEction1 span:nth-child(6){
+    font-size: 1.4rem;
+    color: #a3a3a3;
+}
+.My_COllEction1 img{
+	width: 16px;
+	height: 12px;
+}
+.My_COllEction1 p:nth-child(8){
+    font-size: 1.4rem;
+    color: #a3a3a3;
+}
+#gefu{
+	width: 100%;
+	height: 5px;
+}
+
+.My_COLLECTION{
+	width: 100%;
+	
+}
+.My_COLLECTION1{
+	position: relative;
+	width: 92%;
+	padding: 15px;
+	margin-top: 10px;
+	background-color: #fff;
+}
+.My_COLLECTION1 img{
+	width: 60px;
+	height: 60px;
+	
+}
+.My_COLLECTION2{
+	position: absolute;
+	left: 90px;
+    top:15px;
+	width: 70%;
+	
+}
+.My_COLLECTION2 p:nth-child(1){
+	font-size: 1.4rem;
+}
+.My_COLLECTION2 p:nth-child(2){
+	font-size: 1.3rem;
+	color: #a3a3a3;
+	margin-left:6px; 
+}
+.My_COLLECTION2 p:nth-child(3){
+	font-size: 1.3rem;
+	color: #df4442;
+	margin-left:5px; 
+}

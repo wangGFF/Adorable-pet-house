@@ -1,0 +1,377 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+/*基于最大盒子的媒体查询响应*/
+@media screen and (min-width:900px) {
+    html {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:900px) {
+    html {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:400px) and (max-width:700px) {
+    html {
+        font-size: 12px;    
+    }
+}
+@media screen and (min-width:370px) and (max-width:400px) {
+    html {
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:350px) and (max-width:370px) {
+    html {
+        font-size: 10.5px;
+    }
+}
+@media screen and (min-width:300px) and (max-width:350px) {
+    html {
+        font-size: 9.3px;
+    }
+}
+@media screen and (max-width:300px) {
+    html{
+        font-size: 6px;
+    }
+}
+body{
+	background-color: #eaeaea;
+}
+.My_dynamic,.My_dynamic_content{
+	width:100%;
+
+}
+.navigation_bar{
+    width:100%;
+    height: 44px; 
+    background-color:#df4442;
+    position: relative;
+}
+.return_label{
+	width: 4.255555%;
+    height:50%;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+}
+.clerrer_bible_guide{
+	margin:auto;
+    font-size: 1.5rem;
+    color:#fff;
+    position: absolute;
+    top: 12px;
+    left:50%;
+    margin-left: -30px;
+}
+.My_dynamic_content{
+	position: relative;
+	
+}
+.My_dynamic_content img{
+	width: 75px;
+	height: 100px;
+    position:absolute; 
+    left: 50%;
+    margin-left: -38px;
+    top: 150px;
+}
+.My_dynamic_content span{
+	position: absolute;
+	left: 50%;
+	top: 270px;
+	margin-left: -75px;
+	font-size: 1.4rem;
+	color:#eaeaea;
+}
+.My_Dynamic_Content{
+	width: 100%;
+	height:180px;
+	position: relative; 
+
+}
+.My_Dynamic_Content img:nth-child(1){
+	width: 100%;
+	height:180px;
+}
+.My_Dynamic_Content img:nth-child(2){
+	width: 63px;
+	height:63px;
+	position: absolute;
+	left: 50%;
+	margin-left: -32px;
+	top: 25px;
+}
+.My_Dynamic_Content_geren{
+	position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	top: 90px;
+	font-size: 1.4rem;
+	color: #fff;
+
+}
+.My_Dynamic_Content_geren p{
+	margin-top: 10px;
+    text-align: center;
+}
+.My_dynamic_content_bod{
+	width: 100%;
+	
+}
+.My_Dynamic_content_box{
+	padding: 0 15px;
+	width: 90%;
+	margin-top: 28px;
+	overflow: auto;
+
+}
+.My_Dynamic_content_box1{
+	float: left;
+	width: 60px;
+}
+
+.My_Dynamic_content_box1 span:nth-child(1){
+    font-size: 1.5rem;
+}
+.My_Dynamic_content_box1 span:nth-child(2){
+    font-size: 1.4rem;
+    color:#a3a3a3;
+}
+
+.My_Dynamic_content_box2{
+	overflow: auto;
+	width:75%;
+	
+}
+.My_Dynamic_content_box2 img{
+	float: left;
+}
+.My_Dynamic_content_box2 div{
+	float: left;
+}
+.My_Dynamic_content_box2 div:nth-child(2){
+	font-size: 1.5rem;
+	 margin-left: 10px;
+}
+.My_Dynamic_content_box2 div:nth-child(3){
+	font-size: 1.3rem;
+	color: #a3a3a3; 
+    margin-top:10px;
+    margin-left: 10px;
+}
+
+.app{
+	width: 100%;
+	background-color: #fff;
+}
+.app_first{
+	width: 100%;
+	height: 48px;
+	border-bottom:1px solid #eaeaea; 
+}
+.app_first a{
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	display: block;
+	width: 32%;
+	height: 40px;
+	color: #000;
+	font-size: 1.4rem;
+	margin-top: 3px;
+}
+.app_first a:nth-child(1){
+	border-right: 1px solid #eaeaea;
+
+}
+.app_first a:nth-child(2){
+	border-right: 1px solid #eaeaea;
+
+}
+
+.color{
+				background: #ffffff;
+		}
+		.int{
+			padding: 10px;
+		}
+		.int span{
+		 font-size:1.5rem;
+		}
+		#juz{
+			width: 100%;
+			display: -webkit-box;
+			border: 1px solid #c9c9c9;
+			border-radius: 8px;
+			border-right: none;
+		}
+		#juz input{
+			display: block;
+			-webkit-box-flex: 1;
+			height: 44px;
+			padding-left: 10px;
+			border-radius: 8px;
+			border: none;
+			outline: none;
+		}
+		#juz span{
+			display: block;
+			width: 100px;
+			padding: 10px 0;
+			background: #c9c9c9;
+			color: #f2f2f2;
+			border: 1px solid #c9c9c9;
+			border-top-right-radius: 8px;
+			border-bottom-right-radius: 8px;
+			text-align: center;
+		}
+		.manjian{
+			padding: 10px;
+			position: relative;
+		}
+		.manjian img{
+			width: 100%;
+		}
+		.manjian .mj{
+			width: 31px;
+			height: 90%;
+			background: #333333;
+			color: #ffffff;
+			text-align: center;
+			position: absolute;
+			top: 5px;
+			left: 20px;
+		}
+		.manjian .mj span{
+			position: relative;
+            top: 20%;	
+        }
+        .mj{
+        	font-size: 1.5rem;
+        }
+        .manjian .sy{
+        	width: 80%;
+        	height: 90%;
+        	position: absolute;
+        	top: 10px;
+			left: 59px;
+        }
+        .manjian .sy .h1{
+            border-bottom: 1px dashed #808080;
+            padding: 5px;
+            margin-bottom: 8px;
+        }
+
+        .manjian .sy .h1 .ljsy{
+        	float: right;
+        	padding: 1px 10px;
+        	background: #DF4442;
+        	color: #fff;
+        	font-size: 14px;
+        	border-radius: 3px;
+        }
+        .manjian div h1{
+        	font-size: 1.4rem;
+        	color: #000;
+        }
+        .manjian .sy p{
+        	color: #808080;
+        	font-size: 14px;
+        }
+        .ad div{
+  		display: inline-block;
+  	}
+  	#jian,#jia{
+  		width: 25px;height: 25px;
+  		line-height: 25px;
+  		text-align: center;
+  		border: 1px solid #c9c9c9;
+  		border-radius: 50%;
+  	}
+  	#val{
+  		font-size: 15px;
+  		margin: 0 7px;
+  	}
+  	.quanx{
+  		width: 100%;
+  		display: -webkit-box;
+  		background: #f2f2f2;
+  		position: absolute;
+  		bottom: 0;
+  	}
+  	.quanx div{
+  		-webkit-box-flex: 1;
+  		padding: 5px;
+  		color: #fff;
+  	}
+  	.quanx div:first-child{
+  		-webkit-box-flex: 2;
+  		color: #333;
+  	}
+  	.quanx div:first-child img{
+  		width: 16px;height: 16px;
+  		margin-right: 17px;
+  	}
+  	.quanx div:first-child span{
+  		position: relative;
+  		top: -2px;
+  	}
+  	.quanx div:nth-child(2){
+  		background: #c9c9c9;
+  		text-align: center;
+  	}
+  	.quanx div:nth-child(3){
+  		background: #DF4442;
+  		text-align: center;
+  	}
+.back{
+	position: relative;
+}
+.back img{
+	width: 75px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	margin-left: -37px;
+	top: 150px;
+}
+.back p{
+    position: absolute;
+    left: 50%;
+    margin-left: -55px;
+    top: 260px;
+}
+.ljsyscond{
+	float: right;
+    padding: 1px 10px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px; 
+    background-color: #c9c9c9;
+}
