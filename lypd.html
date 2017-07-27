@@ -1,74 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link href="css/ionic.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/lypd.css">
-    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/lypd.js"></script>
-    <script type="text/javascript" src="json/lypd.json"></script>
-    
-    <!-- <script src="js/ionic.bundle.min.js"></script> -->
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href="css/ionic.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/lypd.css">
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/angular.min.js"></script>
+  
 </head>
-<body>
-	<nav>
-    <div class="icon-back">
+<body ng-app="app" ng-controller="main">
+  <nav>
+    <div class="icon-back"  onclick="javascript:history.back(-1);">
       <img src="img/icon-back@2x.png" alt="">
     </div>
-    <div class="fabu">发布</div>
+    <a href="#" class="fabu">发布</a>
     领养配对
-	</nav>
+  </nav>
   <div class="nav">
     <div class="nav_box1">
       <a href="" id="ly">领养</a>
       <a href="">配对</a>
     </div>
     <div class="nav_box2">
-      <div class="bj">北京 <img src="img/lingyangpeidui_normal@2x.png" alt=""></div>
-      <div class="qb">全部 <img src="img/lingyangpeidui_normal@2x.png" alt=""></div>
-      <div class="zt">状态 <img src="img/lingyangpeidui_normal@2x.png" alt=""></div>
+      <div id="bj" class="bj k" ng-click="bj()">北京 <img src="img/lingyangpeidui_normal@2x.png" alt=""></div>
+      <div id="qb" class="qb k" ng-click="all()">全部 <img src="img/lingyangpeidui_normal@2x.png" alt=""></div>
+      <div id="zt" class="zt k" ng-click="zt()">状态 <img src="img/lingyangpeidui_normal@2x.png" alt=""></div>
+      
     </div>
+      <ul id="all">
+        <li ng-repeat="itm in lis">{{itm}}</li>
+      </ul>
+      <ul id="sjejld">
+        <li class="sjejldli" ng-repeat="itm in ullis" ng-click="shiqu()">{{itm.name}}</li>
+      </ul>
+      <ul id="shiqu">
+          <li>全部</li>
+          <li id="sq" ng-repeat="itm in ulli">{{itm}}</li>
+      </ul>
   </div>
-  <!-- <div id="footer"></div> -->
-      <div class="list" id="list">
-
-        <!-- <a class="item item-thumbnail-left" href="#">
-          <img src="http://www.runoob.com/try/demo_source/blue-album.jpg">
-          <h2>Weezer</h2>
-          <p>Blue Album</p>
-          <p>Nevermind</p>
-        </a>
-
-        <a class="item item-thumbnail-left" href="#">
-          <img src="http://www.runoob.com/try/demo_source/siamese-dream.jpg">
-          <h2>Smashing Pumpkins</h2>
-          <p>Siamese Dream</p>
-          <p>Nevermind</p>
-        </a>
-
-        <a class="item item-thumbnail-left" href="#">
-          <img src="http://www.runoob.com/try/demo_source/nevermind.jpg">
-          <h2>Nirvana</h2>
-          <p>Nevermind</p>
-          <p>Nevermind</p>
-        </a>
-
-        <a class="item item-thumbnail-left" href="#">
-          <img src="http://www.runoob.com/try/demo_source/license-to-ill.jpg">
-          <h2>Beastie Boys</h2>
-          <p>License To Ill</p>
-          <p>Nevermind</p>
-        </a>
-
-        <a class="item item-thumbnail-left" href="#">
-          <img src="http://www.runoob.com/try/demo_source/dookie.jpg">
-          <h2>Green Day</h2>
-          <p>Dookie</p>
-          <p>Nevermind</p>
-        </a> -->
-
-      </div>
+      
+  <div id="app">
+      <a ng-repeat="item in list" class="item item-thumbnail-left" href="xiangqing.html">
+          <img ng-src="img/{{item.img}}.png" alt="">
+          <img id="img1" ng-src="img/{{item.sex}}.png" alt="">
+          <h2>{{item.name}}</h2>
+          <p id="p">{{item.detail}}</p>
+          <img id="img2" ng-src="img/{{item.address_img}}.png" alt="">
+          <p id="p1">{{item.address}}</p>
+      </a>
+  </div>
+    
+<script type="text/javascript" src="js/lypd.js"></script>
 </body>
 </html>
