@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>宠物资料</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <link rel="stylesheet" type="text/css" href="css/sicknessModel.css">
+    <link rel="stylesheet" type="text/css" href="css/mySetPetInforAdd.css">
+    <link rel="stylesheet" type="text/css" href="css/setPetList.css">
+</head>
+<body>
+    <!-- 头部-->
+    <div class="top_top_top"></div>
+    <div class="top_sickness">
+        <a href="setIndex.html" class="top_sickness_back">
+            <img src="img/fanhui@2x.png"></img>
+        </a>
+        <p>宠物列表</p>
+    </div>
+    <div class="petListBox">
+        <div id="app">
+            <ul>
+                <a href="mySetPetInforChange.html">
+                    <li v-for="lis in data.list">
+                            <img v-bind:src="lis.petHeadImage" class="img1">
+                            <span class="petName">{{lis.petName}}</span>
+                            <span class="petType">{{lis.petType}}</span>
+                            <img v-bind:src="lis.moreInfor" class="img2">
+                        
+                    </li>
+                </a>
+            </ul>
+        </div>
+        <a href="mySetPetInforAdd.html">
+            <div class="addPet">
+                    <span>+添加宠物</span>
+            </div>
+        </a>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/vue.js"></script>
+<script type="text/javascript" src="js/setPetList.js"></script>
+</html>

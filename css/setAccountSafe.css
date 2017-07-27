@@ -1,0 +1,158 @@
+.petListBox>div>ul>li{
+    display: inline-block;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #c9c9c9;
+}
+.petListBox>div>ul>li>a{
+	display: inline-block;
+	width: 90%;
+	height: 100%;
+	position: relative;
+	left: 5%;
+	color: #333;
+}
+.petListBox>div>ul>li>a>img{
+	height: 50%;
+	width: auto;
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+.petListBox>.setSafeBox{
+	background-color: white;
+}
+.safePhone{
+	color: #df4442;
+	font-size: 14px;
+	position: absolute;
+	right: 10%;
+}
+.petListBox>div>form>ul{
+	background-color: white;
+}
+.petListBox>div>form>ul>li{
+	width: 100%;
+	height: 44px;
+	border-bottom: 1px solid #c9c9c9;
+}
+.petListBox>div>form>ul>li>div{
+	width: 90%;
+	height: 100%;
+	position: relative;
+	left: 5%;
+}
+.petListBox>div>form>ul>li img{
+	height: 60%;
+	width: auto;
+	position: relative;
+	top: 11px;
+}
+.petListBox>div>form>ul>li .input1{
+	width: 85%;
+	padding-left: 3.6%;
+	height: 90%;
+	border: none;
+	outline: none;
+	color: #333;
+}
+.petListBox>div>form>ul>li .input2{
+	width: 55%;
+	height: 90%;
+	padding-left: 1.5%;
+	border: none;
+	outline: none;
+}
+.huoquYan{
+	position: absolute;
+	right: 0;
+	color: #df4442;
+	font-size: 15px;
+	line-height: 44px;
+}
+.submitPhone{
+	width: 90%;
+	height: 44px;
+	position: relative;
+	left: 5%;
+	background-color: #df4442;
+	border:none;
+	border-radius: 8px;
+	top: 12px;
+}
+.petListBox>div>form>.changPw>li{
+	width: 100%;
+	line-height: 44px;
+}
+.petListBox>div>form>.changPw>li>div>img{
+	top: 5px;
+	padding-right: 2%;
+}
+.petListBox>div>form>.changPw>li>div>input{
+    width: 60%;
+    height: 80%;
+    border: none;
+    outline: none;
+}
+.inputPayPw1,.inputPayPw2{
+	width: 60%;
+	height: 80%;
+	border:none;
+	outline: none;
+	padding-left: 3%;
+}
+.payPwTip{
+	display: inline-block;
+	padding: 10px 0 10px 3%;
+	font-size: 14px;
+	color: #333;x
+}
+.inputPayLi2{
+	border-top: 10px solid #eaeaea;
+}
+.changPayPw{
+	line-height: 44px;
+}
+.inputPayLi1>div,.inputPayLi2>div{
+	position: relative;
+	left: 8% !important;
+}
+.submitPayPw{
+	width: 90%;
+	height: 44px;
+	position: relative;
+	left: 5%;
+	top: 25px;
+	border-radius: 8px;
+	background-color: #df4442;
+	color: white;
+	border:none;
+}
+.paySmallTip{
+	position: relative;
+	top: 50px;
+	background-color: white;
+	font-size: 13px;
+	color: #333;
+}
+.paySmallTip>div>ul>li{
+	width: 95%;
+	height: 84px;
+	position: relative;
+	left: 5%;
+	border-bottom: 1px solid #c9c9c9;
+}
+.paySmallTip>div>ul>li>p{
+	position: absolute;
+	top: 12px;
+	font-weight: bold;
+	color: #333;
+}
+.paySmallTip>div>ul>li>span{
+	position: absolute;
+	top: 42px;
+}
+.payTipLastLi{
+
+}

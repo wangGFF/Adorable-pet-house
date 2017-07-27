@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>添加收获地址</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <link rel="stylesheet" type="text/css" href="css/sicknessModel.css">
+    <link rel="stylesheet" type="text/css" href="css/setPetList.css">
+    <link rel="stylesheet" type="text/css" href="css/setAddGoods.css">
+    <style type="text/css">
+        .cell-right{
+            position: absolute;
+            right: 0;
+            top: -2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部-->
+    <div class="top_top_top"></div>
+    <div class="top_sickness">
+        <a href="setIndex.html" class="top_sickness_back">
+            <img src="img/fanhui@2x.png"></img>
+        </a>
+        <p>添加收获地址</p>
+    </div>
+    <div class="petListBox">
+        <form action="" method="POST">
+            <ul class="addGoodsBox">
+                <li>
+                    <div>
+                        <span>收货人：</span>
+                        <input type="test" name="goodsPerson" placeholder="请输入姓名">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span>联系方式：</span>
+                        <input type="test" name="goodsPerson" placeholder="请输入手机号">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span>所在地区：</span>
+                        <input type="test" name="goodsPerson" placeholder="请输入省市">
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span>详细地址：</span>
+                        <input type="test" name="goodsPerson" placeholder="请输入详细地址">
+                    </div>
+                </li>
+                <li style="margin-top: 10px;">
+                    <div>
+                        <span>设为默认地址</span>
+                        <span class="addDefault">(下单默认用改地址)</span>
+                        <div class="cell-right"><span class="switch-off" id="bluetooth"></span></div>
+                    </div>
+                </li>
+            </ul>
+            <input type="submit" name="" value="保存" class="goodsSubmit">
+        </form>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/vue.js"></script>
+<script type="text/javascript" src="js/setAddGoods.js"></script>
+</html>

@@ -13,58 +13,35 @@ ul ,ol {
 }
 body,html{
 	height: 100%;
+	overflow: hidden;
 	background-color: #333;
 }
-.body{
-	width:100%;
-	height: 100%;
-}
-.body ul{
-	/*width: 100%;*/
-	height: 100%;
-	overflow: hidden;
-	position: relative;
-}
-.body ul li:nth-child(1){
-	width:100%;
-	height: 100%;
+.page{
 	position: absolute;
 	top: 0;
 	left: 0;
-}
-.body ul li:nth-child(2){
-	width:100%;
+	width: 100%;
 	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 375px;
+	display: none;
 }
-.body ul li:nth-child(3){
-	width:100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 750px;
-}
-.body ul li img{
-	width:100%;
+div img{
+	width: 100%;
 	height: 100%;
 }
-.body ul li:nth-child(3) .click{
-	width: 110px;
-	height: 30px;
+.click{
+	z-index: 9999;
 	position: absolute;
-	bottom: 50px;
-	left: 132.5px;
-	font-size: 18px;
+	width: 50%;
+	bottom:7%;
+	left: 35%;
+	color: white;
+	font-size: 20px; 
 }
-.body ul li:nth-child(3) .click div{
-	width: 50px;
-	height: 30px;
+.click div{
 	display: inline-block;
-    border: 1px solid yellow;
-    border-radius: 5px;
-    text-align: center;
-    line-height: 30px;
-    color: white;
+	width:30%; 
+	border:1px solid yellow;
+	border-radius: 5px;
+	text-align: center;
+	line-height:30px;
 }

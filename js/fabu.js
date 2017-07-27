@@ -5,8 +5,6 @@ app.controller("main",function($scope){
 		if(this.msg.length>=500){
 		    $scope.NotW=!$scope.NotW;
 	    }
-	}	
-});
-$(".back").click(function(){
-        window.history.back(-1);
-    })
+	}
+	
+})

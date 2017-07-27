@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>宠物资料</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <link rel="stylesheet" type="text/css" href="css/sicknessModel.css">
+    <link rel="stylesheet" type="text/css" href="css/setVarietyChoose.css">
+</head>
+<body>
+    <!-- 头部-->
+    <div class="top_top_top"></div>
+    <div class="top_sickness">
+        <a href="setPetList.html" class="top_sickness_back">
+            <img src="img/fanhui@2x.png"></img>
+        </a>
+        <p>宠物资料</p>
+    </div>
+    <div id="setApp">
+        <ul>
+           <li>
+               <a v-link="{path: '/dogDog'}" style="border-bottom: 2px solid #df4442">狗狗</a>
+           </li> 
+           <li>
+               <a v-link="{path: '/catCat'}">猫猫</a>
+           </li> 
+           <li>
+               <a v-link="{path: '/othersAnimal'}" style="border-right: none;">其它</a>
+           </li> 
+        </ul>
+        <div>
+            <router-view></router-view>
+        </div>
+    </div>
+    <template id="dogDog">
+        <div class="rightBox">
+            <div v-for="eng in eword" class="eword">
+                <!-- <a href="{{eng.href}}"> -->
+                    {{eng.word}}
+                <!-- </a> -->
+            </div>
+        </div>
+        <div v-for="dog in word" class="dogDogBox">
+            <a name="{{dog.name}}" href="#"></a>
+            <div class="dogDogBoxWord">{{dog.word}}<div>
+        </div>
+    </template>
+    <template id="catCat">
+        <div class="rightBox">
+            <div v-for="eng in eword" class="eword">
+                <!-- <a href="{{eng.href}}"> -->
+                    {{eng.word}}
+                <!-- </a> -->
+            </div>
+        </div>
+         <div v-for="cat in word" class="dogDogBox">
+            <a name="{{cat.name}}" href="#"></a>
+            <div class="dogDogBoxWord">{{cat.word}}<div>
+        </div>
+    </template>
+    <template id="othersAnimal">
+        <div class="otherBox">
+            <div v-for="eng in eword" class="eword">
+                <!-- <a href="{{eng.href}}"> -->
+                    {{eng.word}}
+                <!-- </a> -->
+            </div>
+        </div>
+        <div v-for="others in word" class="dogDogBox">
+            <a name="{{others.name}}" href="#"></a>
+            <div class="dogDogBoxWord">{{others.word}}<div>
+        </div>
+    </template>
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/vue.js"></script>
+<script type="text/javascript" src="js/vue-router.js"></script>
+<script type="text/javascript" src="js/setVarietyChoose.js"></script>
+</html>

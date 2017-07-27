@@ -11,124 +11,67 @@
 <link rel="stylesheet" type="text/css" href="css/clearer_bible.css">
 </head>
 <body>
-	<div class="clerrer_bible" >
-		<div class="navigation_bar">
-			<div class="return_label" id="back">
-			<img src="img/icon-back@2x.png" style="height:100%;width:100%">
-			</div>
-			<div class="clerrer_bible_guide">体重测试</div>
-		</div>
+<div class="clerrer_bible">
+<div class="navigation_bar">
+<div class="return_label" id="back">
+<img src="img/icon-back@2x.png" style="height:100%;width:100%">
+</div>
+<div class="clerrer_bible_guide">体重测试</div>
+</div>
 
-		<div class="content_box">
-			<ul id="test">
-			<template v-for="item in news" id="back">
-			<li v-bind:id="item.id">{{item.title}}<img  v-bind:src="'img/' + item.type" alt=""></img></li>
-			<hr>
-			</template>
-			</ul>
-			<div class="dog_img">
-			<img src="img/tizhongceshi-photo@2x.png">
-			<div id="box">
-			<ul>
-				<li>填写狗狗的体重</li>
-				<li><div class="weight" type="text"><input><span>KG</span></div></li>
-			</ul>
-			<button id="calculate">开始计算</button>
-			</div>
-			</div>
-		</div>
-	</div>
+<div class="content_box">
+<ul id="test">
+<template v-for="item in news" id="back">
+<li v-bind:id="item.id">{{item.title}}<img  v-bind:src="'img/' + item.type" alt=""></img></li>
+<hr>
+</template>
+</ul>
+<div class="dog_img">
+<img src="img/tizhongceshi-photo@2x.png">
+<div id="box">
+<ul>
+	<li>填写狗狗的体重</li>
+	<li><div class="weight" type="text"><input><span>KG</span></div></li>
+</ul>
+<button id="calculate">开始计算</button>
+</div>
+</div>
+</div>
+</div>
 
 <!-- dog性别select -->
-	<div class="Pet_sex">
-		<div class="Pet_sex_navigation_bar">
-			<div class="Pet_sex_return_label" id="Pet_sex_back">
-			<img src="img/icon-back@2x.png" style="height:100%;width:100%">
-			</div>
-			<div class="Pet_sex_clerrer_bible_guide">性别</div>
-			</div>
+<div class="Pet_sex">
+<div class="Pet_sex_navigation_bar">
+<div class="Pet_sex_return_label" id="Pet_sex_back">
+<img src="img/icon-back@2x.png" style="height:100%;width:100%">
+</div>
+<div class="Pet_sex_clerrer_bible_guide">性别</div>
+</div>
 
-			<div class="Pet_sex_content_box">
-			<div class="dog_img">
-			<div id="pet">
-			<ul>
-				<li id="Firset"><div>GG</div><div id="firset_firset"><img src="img/fuwu-duihao@2x.png"></div></li>
-				<li id="Second"><div>MM</div><div id="second_second"><img src="img/fuwu-duihao@2x.png"></div></li>
-			</ul>
-			</div>
-			</div>
-		</div>
-	</div>
+<div class="Pet_sex_content_box">
+<div class="dog_img">
+<div id="pet">
+<ul>
+	<li id="Firset"><div>GG</div><div id="firset_firset"><img src="img/fuwu-duihao@2x.png"></div></li>
+	<li id="Second"><div>MM</div><div id="second_second"><img src="img/fuwu-duihao@2x.png"></div></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 
 <!-- dog品种-->
-	<!-- 头部-->
-	<div class="dog_varieties" id="Dog_varieties">	
-    <div class="navigation_bar">
-			<div class="return_label" id="dog_back">
-			<img src="img/icon-back@2x.png" style="height:100%;width:100%" >
-			</div>
-			<div class="clerrer_bible_guide">狗狗品种</div>
-	</div>
-    <!-- 搜索狗狗 -->
-    <div class="search_dog">
-        <div class="search_dog_input">
-            <input type="text" name="" id="search_dog_Input">
-        </div>
-        <div class="search_dog_big_box" id="search_dog_BigBox">
-            <div class="search_dog_box">
-                <img src="img/sousuo@2x.png">
-                <span>搜索宠物</span>
-            </div>
-        </div>
-    </div>
-    <!-- 狗的品种 -->
-    <div>
-        <!-- 左边导航 -->
-        <div id="EnglishLetterWord"></div>
-        <div id="sicknessAllBox"></div>
-    </div>
-    </div>
-
- <!-- 测试结束 -->
-   <!-- 头部-->
-	<div class="test_results" id="Test_results">	
-	    <div class="test_bar">
-				<div class="test_label" id="dog_back">
-				<img src="img/icon-back@2x.png" style="height:100%;width:100%" id="Test_back">
-				</div>
-				<div class="clerrer_bible_guide">测试结果</div>
-		</div>
-	<!-- 主体 -->
-	    <div class="test_content">
-	        <div class="test_box">
-		        <div class="ditu"></div>
-		    	<img src="img/ceshijieguo-zhibiao-zhong@2x.png" id="test_img">
-		    	<div class="ditu_second"></div>
-		    	<div class="ditu_first"></div>
-		    	<div class="content">偏重</div>
-            </div>
-            <div class="results_box">
-            	<div class="input_results">37.5kg</div>
-            	<p>测试结果：偏重</p>
-            	<p>体重标准：23.0-27.0kg</p>
-            </div>
-	    </div>
-	    <div class="advice_box">
-	    	<div class="advice_box_child">体重控制建议</div>
-	    </div>
-	    <div class="advice_content">
-	    <p>你家的伙食真是棒棒哒，但是狗狗的体重偏重了，建议你：</p>
-	    <br/>
-	    <p>第一，应该控制宠物的食量</p>
-	    <p>秋天时气温降低，宠物食欲大增。为了过冬，的确也需要给它增加营养，适量增加食物，但一定要控制在健康的范围内，不能因为宠物能吃就毫无节制的让它吃，应该少食多餐，并且控制每天食物的总量。第二，应该让宠物犬多运动。秋天的宠物犬，一大爱好便是吃饱了再美美的睡一觉，为了它的健康，增强它抵御疾病的能力，应该多带它出去走走，接触大自然，呼吸新鲜空气；还可以适当地和它万游戏，增加它的运动量</p>
-	    </div>
-	</div>
-
+<div class="dog_varieties">
+<div class="dog_varieties_navigation_bar">
+<div class="dog_varieties_return_label" id="back">
+<img src="img/icon-back@2x.png" style="height:100%;width:100%">
+</div>
+<div class="dog_varieties_clerrer_bible_guide">狗狗品种</div>
+</div>
+</div>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="js/vue.min.js"></script>
-<script type="text/javascript" src="js/TimeSelect.js"></script>
 <script type="text/javascript" src="js/weight_test.js"></script>
 <script type="text/javascript" src="js/pet_sex.js"></script>
-<script type="text/javascript" src=json/dogvarieties.json></script>
 </body>
 </html>

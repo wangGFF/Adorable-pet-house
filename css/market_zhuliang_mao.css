@@ -1,11 +1,8 @@
-p,div,html,body,p,span,a,ul,i,em,li,ol,img,input,button,h1,h2,h3,h4,h5,h6{
+div,html,body,p,span,a,ul,i,em,li,ol,img,input,button,h1,h2,h3,h4,h5,h6{
 	padding:0;
 	margin:0;
 	list-style-type: none;
 	text-decoration: none;
-}
-body{
-   background-color:#eaeaea; 
 }
 .market_mao .mao{
 	width:100%;
@@ -82,54 +79,4 @@ body{
 	    top:2%;
 	    left:-5px;
 	}
-}
-.market_mao .product ul li{
-    float:left;
-    width:45%;
-    background-color: white;
-    margin:10px 0 10px 13px;
-}
-.market_mao .product ul li:last-child{
-    margin:10px 0 80px 13px;
-}
-.market_mao .product ul li .pic{
-    width:100%;
-    position: relative;
-}
-.market_mao .product ul li .pic_1{
-    height:100%;
-    width:100%;    
-}
-.market_mao .product ul li .pic_2{
-    height:70%;
-    width:40%; 
-    position:absolute;
-    top:0;    
-}
-.market_mao .product ul li p{   
-    color:#808080;
-    font-size:12px;
-    padding-left:5px;
-}
-.market_mao .product ul li .cap{   
-    color:#222222;
-    margin:5px 0 5px 0; 
-}
-.market_mao .product ul li .con{   
-    margin:0 0 20px 0; 
-}
-@media (width:320px){
-    .market_mao .product ul li:nth-child(1) .con{   
-        margin:0 0 3px 0; 
-    }
-}
-@media (width:414px){
-    .market_mao .product ul li:nth-child(5) .con{   
-        margin:0 0 3px 0; 
-    }
-}
-.market_mao .product ul li span{   
-    color:#df4442;
-    font-size:12px;
-    padding-left:5px;
 }

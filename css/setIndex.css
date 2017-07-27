@@ -1,0 +1,104 @@
+.setInBox{
+	width: 100%;
+	position: relative;
+	background-color: #eaeaea;
+}
+.setInBox>ul{
+    background-color: white;
+}
+.setInBox>ul>li{
+	width: 100%;
+	position: relative;
+	height: 44px;
+}
+.setInBox>ul>li>a,.cleanCacheAll{
+	color: #333;
+}
+.setInBox>ul>li>a>img,.cleanCacheAll>img{
+	height: 70%;
+	width: auto;
+	position: relative;
+	top: 7px;
+	margin-right: 2%;
+	left: 5%;
+}
+.setInBox>ul>li>a>.rightBox,.cleanCacheAll>.rightBox{
+	width: 80%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	line-height: 44px;
+	border-bottom: 1px solid #c9c9c9;
+}
+/*.setInBox>ul>li>a>.rightBox>span{
+	position: relative;
+	bottom: 10px;
+}*/
+.setInBox>ul>li>a>.rightBox>img,.cleanCacheAll>.rightBox>img{
+	position: absolute;
+	right: 3%;
+	top: 11px;
+	height: 50%;
+	width: auto;
+}
+.quitLogin{
+	width: 90%;
+	height: 44px;
+	background-color: #acacae;
+	position: relative;
+	left: 5%;
+	top: 25px;
+	border-radius: 8px;
+	text-align: center;
+	line-height: 44px;
+}
+.quitLogin>a{
+	color: #fdfdff;
+}
+.cleanCacheAll{
+	height: 44px;
+}
+
+/*清除缓存*/
+.cleanCacheBox{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	background-color: rgba(178,178,178,0.5);
+	display: none;
+}
+.cleanCache{
+	position: absolute;
+	width: 60%;
+	height: 103px;
+	background-color: white;
+	top: 27.5%;
+	left: 24%;
+	border-radius: 8px;
+}
+.cleanCache>.question{
+	color: #333;
+	border-bottom: 1px solid #c9c9c9;
+	width: 100%;
+	height: 58px;
+	line-height: 58px;
+}
+.cleanCache>ul{
+	width: 100%;
+	height: 44px;
+}
+.cleanCache>ul>li{
+	width: 50%;
+	float: left;
+	height: 100%;
+	line-height: 44px;
+	color: #0b6cee;
+}
+.cleanCache>ul>.li1{
+	box-sizing: border-box;
+	border-right: 1px solid #c9c9c9;
+}

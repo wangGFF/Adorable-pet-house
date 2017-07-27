@@ -1,0 +1,48 @@
+#setApp{
+    width: 100%;
+    height: 44px;
+}
+#setApp>ul>li{
+    width: 33.3%;
+    box-sizing: border-box; 
+    display: inline-block;
+    height: 44px;
+    float: left;
+    text-align: center;
+    line-height: 44px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+#setApp>ul>li>a{
+	display: inline-block;
+	height: auto;
+	width: 100%;
+	border-right: 1px solid #d9d9d9;
+    color: #333;
+}
+.dogDogBox{
+	display: inline-block;
+	width: 100%;
+	height: 44px;
+	color: #333;
+	border-bottom: 1px solid #eaeaea;
+	line-height: 44px;
+}
+.dogDogBoxWord{
+	padding-left: 5%;
+
+}
+.rightBox{
+    position: fixed;
+    right: 2%;
+    height: 544px;
+    top: 50%;
+    margin-top:-272px; 
+}
+.otherBox{
+    position: fixed;
+    right: 2%;
+    height: 42px;
+    top: 50%;
+    margin-top:-21px; 
+}

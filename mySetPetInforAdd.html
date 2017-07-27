@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <link rel="stylesheet" type="text/css" href="css/sicknessModel.css">
+    <link rel="stylesheet" type="text/css" href="css/afuding.css">
+</head>
+<body>
+    <!-- 头部-->
+    <div class="top_top_top"></div>
+    <div class="top_sickness">
+        <a href="sicknessEncyclopedia.html" class="top_sickness_back">
+            <img src="img/fanhui@2x.png"></img>
+        </a>
+        <p>阿福丁中毒</p>
+        <span class="share"><a href="">分享</a></span>
+    </div>
+    <div id="app">
+        <div v-for="lis in data.list">
+            <div class="baseTop"><p>基本资料</p></div>
+            <div class="baseBottom">
+                <div><p>{{lis.baseData[0]}}</p></div>
+                <div><p>{{lis.baseData[1]}}</p></div>
+            </div>
+            <div class="baseTop"><p>概述</p></div>
+            <div class="allCssModel"><p>{{lis.summary}}</p></div>
+            <div class="baseTop"><p>发病原因</p></div>
+            <div class="allCssModel"><p>{{lis.sickReason}}</p></div>
+            <div class="baseTop"><p>主要症状</p></div>
+            <div class="allCssModel"><p>{{lis.mainSym}}</p></div>
+            <div class="baseTop"><p>诊断标准</p></div>
+            <div class="allCssModel"><p>{{lis.diagStandard}}</p></div>
+            <div class="baseTop"><p>治疗方法</p></div>
+            <div class="allCssModel"><p>{{lis.treatMethod}}</p></div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/vue.js"></script>
+<script type="text/javascript" src="js/afuding.js"></script>
+</html>

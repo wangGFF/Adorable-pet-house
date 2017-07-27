@@ -38,15 +38,15 @@ window.onload=function(){
         	sicknessAllWord.className="sicknessAllWord";
         	var sicknessAllName=document.createElement("a");
         	sicknessAllName.className="sicknessAllName";
-        	sicknessAllName.href="#";
+        	sicknessAllName.href=sicknessAll[b].href;
         	sicknessAllName.innerHTML=sicknessAll[b].word;
         	sicknessAllWord.appendChild(sicknessAllName);
         	sicknessAllBox.appendChild(sicknessAllWord);
         	if (sicknessAll[b].name!="") {
         		sicknessAllWord.style.width="100%";
-        		sicknessAllWord.style.height="80px";
-        		sicknessAllName.style.lineHeight="80px";
-        		sicknessAllName.style.fontSize="28px";
+        		sicknessAllWord.style.height="40px";
+        		sicknessAllName.style.lineHeight="40px";
+        		sicknessAllName.style.fontSize="14px";
         		sicknessAllWord.style.backgroundColor="#eee";
         	    sicknessAllName.name=sicknessAll[b].name;
         	}else{

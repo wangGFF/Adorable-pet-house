@@ -1,0 +1,54 @@
+.petListBox{
+	width:100%;
+	background-color: #eaeaea;
+}
+.addPet{
+	width: 90%;
+	height: 44px;
+	background-color: #df4442;
+	color: white;
+	text-align: center;
+	line-height: 44px;
+	border-radius: 8px;
+	position: relative;
+	top: 12.5px;
+	left: 5%;
+}
+.petListBox>#app>ul>a{
+	display: inline-block;
+	width: 100%;
+	height: 60px;
+	color: #333;
+	background-color: white;
+}
+.petListBox>#app>ul>a>li{
+	display: inline-block;
+	width: 90%;
+	height: 100%;
+	position: relative;
+	left: 5%;
+}
+.petListBox>#app>ul>a>li>.img1{
+	height: 80%;
+	width: auto;
+	position: relative;
+	top: 5px;
+}
+.petListBox>#app>ul>a>li>.img2{
+	position: absolute;
+	right: 0;
+	top: 12px;
+	height: 50%;
+}
+.petListBox>#app>ul>a>li>.petName{
+	font-size: 12px;
+	position: absolute;
+	left: 54px;
+	top: 17px;
+}
+.petListBox>#app>ul>a>li>.petType{
+	font-size: 11px;
+	position: absolute;
+	left: 54px;
+	top: 35px;
+}

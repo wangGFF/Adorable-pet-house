@@ -64,9 +64,6 @@ div,html,body,p,span,a,ul,i,em,li,ol,img,input,button,h1,h2,h3,h4,h5,h6{
 	color:#808080;
 	font-size:1.2rem;
 }
-.comment .product p:nth-child(1){
-    border-bottom:4px solid black;
-}
 .comment .product span:first-child{
 	border-bottom:4px solid black;
 }
@@ -134,81 +131,3 @@ div,html,body,p,span,a,ul,i,em,li,ol,img,input,button,h1,h2,h3,h4,h5,h6{
 .comment .Pro_details ul li:last-child{
 	border-bottom:0;
 }
-.comment .share{
-	width:100%;
-    background-color:#fff;
-    position: fixed;
-    z-index: 2;
-    bottom:0;
-    left:0;
-}
-.comment .share .shopping{
-	display: inline-block;
-	float:left;
-	color:#808080;
-}
-.comment .share .shopping img{
-	width:60%;
-	height:60%;
-}
-.comment .share .shopping span{
-	display: block;
-}
-.comment .share .shop_che img{
-	position: relative;
-	left:5px;
-}
-.comment .share .shop{
-	margin-left:15px;
-	padding:5px 0;
-}
-.comment .share .shop_che{
-	padding:5px 0;
-}
-.comment .share .jiaru,.buy{
-	height:67px;
-	line-height: 67px;
-	text-align: center;
-}
-.comment .share .jiaru{
-	width:121px;
-	color:white;
-	background-color: #fdd42d;
-}
-.comment .share .buy{
-	width:118px;
-	color:white;
-	background-color: #df4442;
-}
-@media (width:320px){
-	.comment .com_content ul li p:nth-child(2){
-		font-size:1.2rem;
-	}
-	.comment .share .jiaru{
-	width:91px;
-	color:white;
-	background-color: #fdd42d;
-}
-.comment .share .buy{
-	width:92px;
-	color:white;
-	background-color: #df4442;
-}   
-}
-@media (min-width:380px){
-	.comment .com_content ul li p:nth-child(2){
-		font-size:1.2rem;
-	}
-	.comment .share .jiaru{
-	width:34%;
-	color:white;
-	background-color: #fdd42d;
-}
-.comment .share .buy{
-	width:32.8%;
-	color:white;
-	background-color: #df4442;
-}   
-}
-
-

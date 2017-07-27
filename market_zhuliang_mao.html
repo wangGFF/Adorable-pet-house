@@ -25,19 +25,9 @@
             <input type="text" name="text" placeholder="请输入内容" class="text">
             <span class="cancel">取消</span>       
         </div>
-        <div ng-app="myApp" class="product">
-            <ul ng-controller="main">
-                <li ng-repeat="item in data.mao">
-                    <div class="pic">
-                        <img ng-src="{{item.img1}}" class="pic_1">
-                        <img ng-src="{{item.img2}}" class="pic_2" ng-show="item.img2==''?false:true">
-                    </div>                   
-                    <p class="cap">{{item.cap}}</p>
-                    <p class="con">{{item.con1}}</p>
-                    <span>{{item.pri}}</span>
-                </li>
-            </ul>
-        </div>  
+        <div class="product">
+            
+        </div>
     </div>
 </body>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>

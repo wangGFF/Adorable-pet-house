@@ -1,11 +1,12 @@
-{
-  "errno": 0,
-  "data": [
-    {
+createData({
+    "errno": 0,
+    "data": {
+        "list": [
+  {
     "img":"lingyangpeidui&zhuanfa_photo@2x",
     "sex":"xingbie_xuanzhong2@2x",
     "name":"哈士奇 (1岁)",
-    "detail":"听我朋友说爱宠家可以有免费领养宠物，我想要领养一只大型犬......",
+    "detail":"听我朋友说爱宠家可以有免费领养宠物,我想要领养一只大型犬......",
     "address_img":"didian@2x",
     "address":"北京市朝阳区青年路小区"
   },
@@ -13,7 +14,7 @@
     "img":"lingyangpeidui_liebiao_photo2@2x",
     "sex":"xingbie_xuanzhong2@2x",
     "name":"泰迪 (2个月)",
-    "detail":"纯种泰迪宝宝，有偿领养，给个狗粮钱就行了",
+    "detail":"纯种泰迪宝宝,有偿领养,给个狗粮钱就行了",
     "address_img":"didian@2x",
     "address":"北京市朝阳区青年路小区"
   },
@@ -21,49 +22,11 @@
     "img":"lingyangpeidui_liebiao_photo3@2x",
     "sex":"xingbie_xuanzhong1@2x",
     "name":"阿拉加斯 (2个月)",
-    "detail":"因为工作原因，不能继续养我家球球，阿拉加斯，女孩",
+    "detail":"因为工作原因,不能继续养我家球球,阿拉加斯,女孩",
     "address_img":"didian@2x",
     "address":"北京市丰台区丰台草桥恋日花都"
-  },
-  {
-    "img":"lingyangpeidui_liebiao_photo4@2x",
-    "sex":"xingbie_xuanzhong2@2x",
-    "name":"中华田园猫 (3个月)",
-    "detail":"挺可爱，粘人，爱玩，宿舍太小，工作太忙，免费赠送",
-    "address_img":"didian@2x",
-    "address":"北京市海定区学院路38号"
-  },
-  {
-    "img":"lingyangpeidui_liebiao_photo5@2x",
-    "sex":"xingbie_xuanzhong2@2x",
-    "name":"金毛 (4岁)",
-    "detail":"金毛四岁了，听话，饮食规律，疫苗齐全。现因无法继续......",
-    "address_img":"didian@2x",
-    "address":"北京市朝阳区安贞桥东"
-  },
-  {
-    "img":"lingyangpeidui_liebiao_photo6@2x",
-    "sex":"xingbie_xuanzhong1@2x",
-    "name":"萨摩耶 (1岁)",
-    "detail":"找爱心主人！",
-    "address_img":"didian@2x",
-    "address":"北京市通州区北京通州马驹桥"
-  },
-  {
-    "img":"lingyangpeidui_liebiao_photo7@2x",
-    "sex":"xingbie_xuanzhong2@2x",
-    "name":"松狮 (1岁)",
-    "detail":"听我朋友说爱宠家可以有免费领养宠物，我想要领养一只大型犬......",
-    "address_img":"didian@2x",
-    "address":"北京市朝阳区青年路小区"
-  },
-  {
-    "img":"lingyangpeidui_liebiao_photo8@2x",
-    "sex":"xingbie_xuanzhong2@2x",
-    "name":"博美 (1岁)",
-    "detail":"听我朋友说爱宠家可以有免费领养宠物，我想要领养一只大型犬......",
-    "address_img":"didian@2x",
-    "address":"北京市朝阳区青年路小区"
   }
-  ]
-}
+]}});
+zhonglei({
+  "zhonglei":["全部","小狗","小猫","小宠"]
+  })
